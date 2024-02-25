@@ -3,9 +3,18 @@ const { data } = Astro.props;
 const { tituloQuienesSomos, textoQuienesSomos } = data;
 ---
 
-<div class="flex flex-col place-items-center p-4">
+<div class="container">
   <h1 class="text-2xl font-semibold">{tituloQuienesSomos}</h1>
   <p class="text-sm text-pretty">
     {textoQuienesSomos}
   </p>
 </div>
+
+<style>
+  .container {
+    display:flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 1rem;
+  }
+</style>
