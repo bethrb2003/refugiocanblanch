@@ -1,5 +1,5 @@
 {
-  "name": "refugiocanblanch",
+  "name": "refugiocanblanch.com",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,6 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.4.4"
+    "@astrojs/tailwind": "^5.1.0",
+    "@fontsource/kalam": "^5.0.8",
+    "astro": "^4.4.4",
+    "tailwindcss": "^3.4.1"
   }
 }

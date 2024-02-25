@@ -1,0 +1,16 @@
+---
+const { data } = Astro.props;
+const { botonCTA,bannerTexto } = data;
+import BotonReservar from "./BotonReservar.astro";
+---
+
+<div class="bg-primary w-full h-14 flex justify-center items-center text-white gap-3">
+  <span>{bannerTexto}</span>
+  <BotonReservar bg="blanco" color="negro">
+    {botonCTA}
+  </BotonReservar>
+</div>
+
+<style>
+  
+</style>

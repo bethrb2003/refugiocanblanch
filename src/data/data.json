@@ -1,0 +1,34 @@
+{
+  "esp": {
+    "titulo": "Refugio Can Blanch",
+    "subtitulo": "Tu escapada perfecta en la naturaleza a 45 minutos de Barcelona",
+    "tituloBienvenida": "Bienvenidos a Nuestro Refugio",
+    "textoBienvenida": "Descubre la belleza de la naturaleza y disfruta de una estadía confortable y relajante en nuestro refugio. Ideal para los amantes de la aventura y la tranquilidad.",
+    "tituloQuienesSomos": "Quiénes Somos",
+    "textoQuienesSomos": "Somos una familia apasionada por la naturaleza y el turismo sostenible. Nuestro refugio es el resultado de nuestro amor por el medio ambiente y el deseo de compartir este paraíso con nuestros visitantes.",
+    "botonCTA": "Reservar",
+    "bannerTexto": "¡Reserva ahora y en Airbnb!"
+  },
+  "eng": {
+    "titulo": "Can Blanch Refuge",
+    "subtitulo": "Your perfect getaway in nature, just 45 minutes from Barcelona",
+    "tituloBienvenida": "Welcome to Our Refuge",
+    "textoBienvenida": "Discover the beauty of nature and enjoy a comfortable and relaxing stay at our refuge. Ideal for lovers of adventure and tranquility.",
+    "tituloQuienesSomos": "Who We Are",
+    "textoQuienesSomos": "We are a family passionate about nature and sustainable tourism. Our refuge is the result of our love for the environment and the desire to share this paradise with our visitors.",
+    "botonCTA": "Book Now",
+    "bannerTexto": "Book now on Airbnb!"
+  },
+  
+  "fra": {
+    "titulo": "Refuge Can Blanch",
+    "subtitulo": "Votre évasion parfaite dans la nature, à seulement 45 minutes de Barcelone",
+    "tituloBienvenida": "Bienvenue dans Notre Refuge",
+    "textoBienvenida": "Découvrez la beauté de la nature et profitez d'un séjour confortable et relaxant dans notre refuge. Idéal pour les amateurs d'aventure et de tranquillité.",
+    "tituloQuienesSomos": "Qui Nous Sommes",
+    "textoQuienesSomos": "Nous sommes une famille passionnée par la nature et le tourisme durable. Notre refuge est le résultat de notre amour pour l'environnement et le désir de partager ce paradis avec nos visiteurs.",
+    "botonCTA": "Réserver",
+    "bannerTexto": "Réservez maintenant sur Airbnb !"
+  }
+
+}

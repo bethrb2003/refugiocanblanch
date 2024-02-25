@@ -1,0 +1,24 @@
+---
+const { data } = Astro.props;
+const { titulo, subtitulo, botonCTA } = data;
+import BotonReservar from "./BotonReservar.astro";
+---
+
+<div class="relative z-30 flex justify-center w-full">
+  <div class="absolute w-full mt-12 text-center bg-gray-950 p-2 bg-opacity-30">
+    <h1
+      class="mb-2 text-2xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl"
+    >
+      {titulo}
+    </h1>
+    <p class="mb-4 text-lg font-normal lg:text-xl sm:px-16 xl:px-48 text-white">
+      {subtitulo}
+    </p>
+    <BotonReservar bg="primary" color="blanco">
+      {botonCTA}
+    </BotonReservar>
+  </div>
+  <div>
+    <img src="/images/foto2.webp" alt="" />
+  </div>
+</div>

@@ -1,0 +1,11 @@
+---
+const { data } = Astro.props;
+const { tituloBienvenida, textoBienvenida } = data;
+---
+
+<div class="flex flex-col place-items-center p-4">
+  <h1 class="text-2xl font-semibold">{tituloBienvenida}</h1>
+  <p class="text-sm text-pretty">
+    {textoBienvenida}
+  </p>
+</div>
