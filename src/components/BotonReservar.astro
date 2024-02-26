@@ -1,12 +1,31 @@
----
-const { bg, color } = Astro.props;
----
-
-<button
-  type="button"
-  class=`inline-flex items-center justify-center px-2 py-2 text-xs font-medium text-center text-white bg-${bg} text-${color} rounded-lg hover:bg-secondary focus:ring-4 focus:ring-blue-300`
->
+<button type="button">
   <a href="https://www.google.com">
     <slot />
   </a>
 </button>
+
+<style>
+  button {
+    transition: transform 0.3s ease-in-out;
+    background-color: var(--primary);
+    color: var(--blanco);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 0.5rem;
+    outline: 0;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
+</style>

@@ -1,0 +1,15 @@
+---
+import BienvenidaPrivada from "../../components/BienvenidaPrivada.astro";
+import LayoutPrivada from "../../layouts/LayoutPrivada.astro";
+import datos from "../../data/data.json";
+const data = datos.esp;
+---
+
+<LayoutPrivada>
+  <a class="text-2xl p-2" href="/canblanch_privada">⬅️</a>
+  <main class="flex flex-col w-full pt-10 justify-center items-center gap-4">
+    <BienvenidaPrivada {data} />
+  </main>
+</LayoutPrivada>
+
+<style></style>
