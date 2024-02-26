@@ -1,23 +1,20 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Slider from "../components/Slider.astro";
+import LayoutLanding from "../layouts/LayoutLanding.astro";
 import Quienes from "../components/Quienes.astro";
 import BannerReservar from "../components/BannerReservar.astro";
 import datos from "../data/data.json";
 import Bienvenida from "../components/Bienvenida.astro";
+import Slider from "../components/Slider.astro";
 const data = datos.eng;
 ---
 
-<Layout title="Welcome to Astro.">
+<LayoutLanding>
+  <Slider {data} />
   <main>
-    <header>
-      <Slider {data} />
-    </header>
     <Bienvenida {data} />
     <Quienes {data} />
     <BannerReservar {data} />
-
   </main>
-</Layout>
+</LayoutLanding>
 
 <style></style>
