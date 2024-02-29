@@ -1,0 +1,22 @@
+---
+// Define la lista de imágenes
+const imagenes = Array.from(
+  { length: 23 },
+  (_, i) => `/casa/foto${i + 4}.webp`
+);
+---
+
+<h2 class="text-center text-2xl font-semibold pt-4">Galeria</h2>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+  {
+    imagenes.map((src, index) => (
+      <div key={index}>
+        <img
+          class="h-auto max-w-full rounded-lg"
+          src={src}
+          alt={`Imagen ${index + 4}`}
+        />
+      </div>
+    ))
+  }
+</div>

@@ -10,73 +10,329 @@
     "bannerTexto": "¡Reserva ahora y en Airbnb!",
     "tituloBienvenidos": "Bienvenido a Refugio Can Blanch",
     "subtituloBienvenidos": "Espero que pases una excelente estancia en nuestro refugio. Si necesitas algo, no dudes en contactarnos. ¡Disfruta de tu estancia!",
-    "galeria": {
-      "titulo": "Galería",
-      "subtitulo": "Descubre la belleza de nuestro refugio",
-      "imagenes": {
-        "titulo1": "Vistas panorámicas",
-        "subtitulo1": "Disfruta de la naturaleza en todo su esplendor",
-        "titulo2": "Cabañas acogedoras",
-        "subtitulo2": "Descansa en nuestras cabañas de madera",
-        "titulo3": "Rutas de senderismo",
-        "subtitulo3": "Explora los alrededores y descubre la fauna y flora local",
-        "titulo4": "Cocina al aire libre",
-        "subtitulo4": "Prepara tus comidas en nuestra cocina al aire libre"
-      }
+    "lugaresInteres": {
+      "titulo": "Lugares de interes",
+      "imagenes": [
+        {
+          "titulo": "Vistas panorámicas",
+          "subtitulo": "Disfruta de la naturaleza en todo su esplendor",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RI-51-0005209.jpg/1280px-RI-51-0005209.jpg",
+          "enlace": "https://www.google.com"
+        },
+        {
+          "titulo": "Cabañas acogedoras",
+          "subtitulo": "Descansa en nuestras cabañas de madera",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RI-51-0005209.jpg/1280px-RI-51-0005209.jpg",
+          "enlace": "https://www.google.com"
+        },
+        {
+          "titulo": "Rutas de senderismo",
+          "subtitulo": "Explora los alrededores y descubre la fauna y flora local",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RI-51-0005209.jpg/1280px-RI-51-0005209.jpg",
+          "enlace": "https://www.google.com"
+        },
+        {
+          "titulo": "Cocina al aire libre",
+          "subtitulo": "Prepara tus comidas en nuestra cocina al aire libre",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RI-51-0005209.jpg/1280px-RI-51-0005209.jpg",
+          "enlace": "https://www.google.com"
+        }
+      ]
+    },
+    "servicios": {
+      "titulo": "Servicios",
+      "imagenes": [
+        {
+          "nombre": "Farmacia Central",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        },
+        {
+          "nombre": "Hospital General",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        },
+        {
+          "nombre": "Policia Local",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        },
+        {
+          "nombre": "Bomberos",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        }
+      ]
+    },
+    "restaurantes": {
+      "titulo": "Restaurantes",
+      "imagenes": [
+        {
+          "nombre": "Restaurante 1",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        },
+        {
+          "nombre": "Restaurante 2",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        },
+        {
+          "nombre": "Restaurante 3",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        },
+        {
+          "nombre": "Restaurante 4",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        }
+      ]
+    },
+    "instrucciones": {
+      "titulo": "Instrucciones",
+      "tips": [
+        {
+          "subtitulo": "Luces",
+          "instruccion": " No olvides apagar las luces al salir de la habitación"
+        },
+        {
+          "subtitulo": "Basura",
+          "instruccion": "Recuerda separar la basura en los contenedores correspondientes"
+        },
+        {
+          "subtitulo": "Agua",
+          "instruccion": "Ayúdanos a cuidar el agua, no la malgastes"
+        },
+        {
+          "subtitulo": "Ruido",
+          "instruccion": "Respeta el descanso de los demás huéspedes, evita hacer ruido después de las 22:00"
+        }
+      ]
     }
   },
   "eng": {
     "titulo": "Can Blanch Refuge",
-    "subtitulo": "Your perfect getaway in nature, just 45 minutes from Barcelona",
+    "subtitulo": "Your perfect getaway in nature, just 45 minutes away from Barcelona",
     "tituloBienvenida": "Welcome to Our Refuge",
-    "textoBienvenida": "Discover the beauty of nature and enjoy a comfortable and relaxing stay at our refuge. Ideal for lovers of adventure and tranquility.",
+    "textoBienvenida": "Discover the beauty of nature and enjoy a comfortable and relaxing stay in our refuge. Ideal for lovers of adventure and tranquility.",
     "tituloQuienesSomos": "Who We Are",
     "textoQuienesSomos": "We are a family passionate about nature and sustainable tourism. Our refuge is the result of our love for the environment and the desire to share this paradise with our visitors.",
     "botonCTA": "Book Now",
-    "bannerTexto": "Book now on Airbnb!",
-
+    "bannerTexto": "Book now and on Airbnb!",
     "tituloBienvenidos": "Welcome to Can Blanch Refuge",
-    "subtituloBienvenidos": "We hope you have an excellent stay at our refuge. If you need anything, do not hesitate to contact us. Enjoy your stay!",
-    "galeria": {
-      "titulo": "Gallery",
-      "subtitulo": "Discover the beauty of our refuge",
-      "imagenes": {
-        "titulo1": "Panoramic Views",
-        "subtitulo1": "Enjoy nature in all its splendor",
-        "titulo2": "Cozy Cabins",
-        "subtitulo2": "Rest in our wooden cabins",
-        "titulo3": "Hiking Trails",
-        "subtitulo3": "Explore the surroundings and discover the local fauna and flora",
-        "titulo4": "Outdoor Kitchen",
-        "subtitulo4": "Prepare your meals in our outdoor kitchen"
-      }
+    "subtituloBienvenidos": "We hope you have an excellent stay in our refuge. If you need anything, do not hesitate to contact us. Enjoy your stay!",
+    "lugaresInteres": {
+      "titulo": "Places of Interest",
+      "imagenes": [
+        {
+          "titulo": "Panoramic Views",
+          "subtitulo": "Enjoy nature in all its splendor",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RI-51-0005209.jpg/1280px-RI-51-0005209.jpg",
+          "enlace": "https://www.google.com"
+        },
+        {
+          "titulo": "Cozy Cabins",
+          "subtitulo": "Rest in our wooden cabins",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RI-51-0005209.jpg/1280px-RI-51-0005209.jpg",
+          "enlace": "https://www.google.com"
+        },
+        {
+          "titulo": "Hiking Trails",
+          "subtitulo": "Explore the surroundings and discover the local fauna and flora",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RI-51-0005209.jpg/1280px-RI-51-0005209.jpg",
+          "enlace": "https://www.google.com"
+        },
+        {
+          "titulo": "Outdoor Kitchen",
+          "subtitulo": "Prepare your meals in our outdoor kitchen",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RI-51-0005209.jpg/1280px-RI-51-0005209.jpg",
+          "enlace": "https://www.google.com"
+        }
+      ]
+    },
+    "servicios": {
+      "titulo": "Services",
+      "imagenes": [
+        {
+          "nombre": "Central Pharmacy",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        },
+        {
+          "nombre": "General Hospital",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        },
+        {
+          "nombre": "Local Police",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        },
+        {
+          "nombre": "Firefighters",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        }
+      ]
+    },
+    "restaurantes": {
+      "titulo": "Restaurants",
+      "imagenes": [
+        {
+          "nombre": "Restaurant 1",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        },
+        {
+          "nombre": "Restaurant 2",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        },
+        {
+          "nombre": "Restaurant 3",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        },
+        {
+          "nombre": "Restaurant 4",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        }
+      ]
+    },
+    "instrucciones": {
+      "titulo": "Instructions",
+      "tips": [
+        {
+          "subtitulo": "Lights",
+          "instruccion": "Don't forget to turn off the lights when leaving the room"
+        },
+        {
+          "subtitulo": "Garbage",
+          "instruccion": "Remember to separate the garbage in the corresponding containers"
+        },
+        {
+          "subtitulo": "Water",
+          "instruccion": "Help us conserve water, don't waste it"
+        },
+        {
+          "subtitulo": "Noise",
+          "instruccion": "Respect the rest of other guests, avoid making noise after 10:00 PM"
+        }
+      ]
     }
   },
-
   "fra": {
     "titulo": "Refuge Can Blanch",
-    "subtitulo": "Votre évasion parfaite dans la nature, à seulement 45 minutes de Barcelone",
-    "tituloBienvenida": "Bienvenue dans Notre Refuge",
-    "textoBienvenida": "Découvrez la beauté de la nature et profitez d'un séjour confortable et relaxant dans notre refuge. Idéal pour les amateurs d'aventure et de tranquillité.",
+    "subtitulo": "Votre escapade parfaite dans la nature, à seulement 45 minutes de Barcelone",
+    "tituloBienvenida": "Bienvenue à Notre Refuge",
+    "textoBienvenida": "Découvrez la beauté de la nature et profitez d'un séjour confortable et relaxant dans notre refuge. Idéal pour les amoureux de l'aventure et de la tranquillité.",
     "tituloQuienesSomos": "Qui Nous Sommes",
     "textoQuienesSomos": "Nous sommes une famille passionnée par la nature et le tourisme durable. Notre refuge est le résultat de notre amour pour l'environnement et le désir de partager ce paradis avec nos visiteurs.",
     "botonCTA": "Réserver",
-    "bannerTexto": "Réservez maintenant sur Airbnb !",
+    "bannerTexto": "Réservez maintenant et sur Airbnb !",
     "tituloBienvenidos": "Bienvenue au Refuge Can Blanch",
     "subtituloBienvenidos": "Nous espérons que vous passerez un excellent séjour dans notre refuge. Si vous avez besoin de quelque chose, n'hésitez pas à nous contacter. Profitez de votre séjour !",
-    "galeria": {
-      "titulo": "Galerie",
-      "subtitulo": "Découvrez la beauté de notre refuge",
-      "imagenes": {
-        "titulo1": "Vues Panoramiques",
-        "subtitulo1": "Profitez de la nature dans toute sa splendeur",
-        "titulo2": "Cabanes Confortables",
-        "subtitulo2": "Reposez-vous dans nos cabanes en bois",
-        "titulo3": "Sentiers de Randonnée",
-        "subtitulo3": "Explorez les environs et découvrez la faune et la flore locales",
-        "titulo4": "Cuisine en Plein Air",
-        "subtitulo4": "Préparez vos repas dans notre cuisine en plein air"
-      }
+    "lugaresInteres": {
+      "titulo": "Lieux d'intérêt",
+      "imagenes": [
+        {
+          "titulo": "Vues panoramiques",
+          "subtitulo": "Profitez de la nature dans toute sa splendeur",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RI-51-0005209.jpg/1280px-RI-51-0005209.jpg",
+          "enlace": "https://www.google.com"
+        },
+        {
+          "titulo": "Cabanes accueillantes",
+          "subtitulo": "Reposez-vous dans nos cabanes en bois",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RI-51-0005209.jpg/1280px-RI-51-0005209.jpg",
+          "enlace": "https://www.google.com"
+        },
+        {
+          "titulo": "Itinéraires de randonnée",
+          "subtitulo": "Explorez les environs et découvrez la faune et la flore locales",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RI-51-0005209.jpg/1280px-RI-51-0005209.jpg",
+          "enlace": "https://www.google.com"
+        },
+        {
+          "titulo": "Cuisine en plein air",
+          "subtitulo": "Préparez vos repas dans notre cuisine en plein air",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RI-51-0005209.jpg/1280px-RI-51-0005209.jpg",
+          "enlace": "https://www.google.com"
+        }
+      ]
+    },
+    "servicios": {
+      "titulo": "Services",
+      "imagenes": [
+        {
+          "nombre": "Pharmacie Centrale",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        },
+        {
+          "nombre": "Hôpital Général",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        },
+        {
+          "nombre": "Police Locale",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        },
+        {
+          "nombre": "Pompiers",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        }
+      ]
+    },
+    "restaurantes": {
+      "titulo": "Restaurants",
+      "imagenes": [
+        {
+          "nombre": "Restaurant 1",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        },
+        {
+          "nombre": "Restaurant 2",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        },
+        {
+          "nombre": "Restaurant 3",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        },
+        {
+          "nombre": "Restaurant 4",
+          "telefono": "656656656",
+          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+        }
+      ]
+    },
+    "instrucciones": {
+      "titulo": "Instructions",
+      "tips": [
+        {
+          "subtitulo": "Lumières",
+          "instruccion": "N'oubliez pas d'éteindre les lumières en quittant la chambre"
+        },
+        {
+          "subtitulo": "Ordures",
+          "instruccion": "Rappelez-vous de trier les ordures dans les conteneurs correspondants"
+        },
+        {
+          "subtitulo": "Eau",
+          "instruccion": "Aidez-nous à préserver l'eau, ne la gaspillez pas"
+        },
+        {
+          "subtitulo": "Bruit",
+          "instruccion": "Respectez le repos des autres invités, évitez de faire du bruit après 22h00"
+        }
+      ]
     }
   }
 }

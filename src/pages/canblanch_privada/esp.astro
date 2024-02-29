@@ -1,14 +1,28 @@
 ---
-import BienvenidaPrivada from "../../components/BienvenidaPrivada.astro";
-import LayoutPrivada from "../../layouts/LayoutPrivada.astro";
+import BienvenidaPrivada from "@/components/BienvenidaPrivada.astro";
+import LayoutPrivada from "@/layouts/LayoutPrivada.astro";
+import LugaresInteres from "@/components/LugaresInteres.astro";
+import Conectate from "@/components/Conectate.astro";
 import datos from "../../data/data.json";
+import Servicios from "@/components/Servicios.astro";
+import Restaurantes from "@/components/Restaurantes.astro";
+import Instrucciones from "@/components/Instrucciones.astro";
 const data = datos.esp;
+const dataLugares = datos.esp.lugaresInteres;
+const dataServicios = datos.esp.servicios;
+const dataRestaurantes = datos.esp.restaurantes;
+const dataInstrucciones = datos.esp.instrucciones;
 ---
 
 <LayoutPrivada>
   <a class="text-2xl p-2" href="/canblanch_privada">⬅️</a>
-  <main class="flex flex-col w-full pt-10 justify-center items-center gap-4">
+  <main class="flex flex-col w-full justify-center items-center">
     <BienvenidaPrivada {data} />
+    <Conectate {data} />
+    <Servicios {dataServicios} />
+    <Instrucciones {dataInstrucciones} />
+    <Restaurantes {dataRestaurantes} />
+    <LugaresInteres {dataLugares} />
   </main>
 </LayoutPrivada>
 
