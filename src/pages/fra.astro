@@ -1,11 +1,14 @@
 ---
-import LayoutLanding from "../layouts/LayoutLanding.astro";
-import Quienes from "../components/Quienes.astro";
-import BannerReservar from "../components/BannerReservar.astro";
-import datos from "../data/data.json";
-import Bienvenida from "../components/Bienvenida.astro";
-import Slider from "../components/Slider.astro";
+import LayoutLanding from "@/layouts/LayoutLanding.astro";
+import Bienvenida from "@/components/Bienvenida.astro";
+import Quienes from "@/components/Quienes.astro";
+import BannerReservar from "@/components/BannerReservar.astro";
+import Slider from "@/components/Slider.astro";
+import datos from "@/data/data.json";
+import LugaresInteres from "@/components/LugaresInteres.astro";
+import Galeria from "@/components/Galeria.astro";
 const data = datos.fra;
+const dataLugares = datos.fra.lugaresInteres;
 ---
 
 <LayoutLanding>
@@ -14,6 +17,8 @@ const data = datos.fra;
     <Bienvenida {data} />
     <Quienes {data} />
     <BannerReservar {data} />
+    <Galeria />
+    <LugaresInteres {dataLugares} />
   </main>
 </LayoutLanding>
 
