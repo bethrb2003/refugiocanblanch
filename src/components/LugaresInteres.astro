@@ -1,13 +1,13 @@
 ---
 import BotonNormal from "@/components/BotonNormal.astro";
 const { dataLugares } = Astro.props;
-const { titulo, imagenes } = dataLugares;
+const { titulo, data } = dataLugares;
 ---
 
-<section class="flex flex-col justify-center items-center mt-4">
-  <h2 class="text-2xl font-semibold">{titulo}</h2>
-  <div class="grid grid-cols-2 md:grid-cols-3 gap-4 px-4 pb-4">
-    {imagenes.map((imagen, index) => (
+<section class="flex flex-col justify-center items-center pt-4">
+  <h2 class="text-2xl font-semibold pb-2">{titulo}</h2>
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-2 px-4 pb-4">
+    {data.map((imagen, index) => (
       <div key={index} class="max-w-sm bg-white rounded-lg shadow-xl">
         <a href="#" target="_blank">
           <img class="rounded-t-lg" src={imagen.foto} alt="" />
