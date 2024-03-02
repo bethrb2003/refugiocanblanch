@@ -4,6 +4,8 @@ interface Props {
 }
 
 const { title } = Astro.props;
+// Supports weights 100-900
+import "@fontsource/montserrat";
 import "@fontsource/kalam";
 ---
 
@@ -22,6 +24,10 @@ import "@fontsource/kalam";
     <title>{title}</title>
   </head>
   <body>
+    <div class="absolute z-50 flex gap-4 p-1 text-blanco">
+      <a class="bg-gray-700 px-1 rounded-sm" href="/">Publica</a>
+      <a class="bg-gray-700 px-1 rounded-sm" href="/canblanch_privada">Privada</a>
+    </div>
     <slot />
   </body>
 </html>
@@ -35,7 +41,7 @@ import "@fontsource/kalam";
 
   html,
   body {
-    font-family: "kalam", cursive;
+    font-family: "montserrat", sans-serif;
     position: relative;
     height: 100%;
   }

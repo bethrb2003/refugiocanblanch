@@ -8,6 +8,7 @@ import Servicios from "@/components/Servicios.astro";
 import Restaurantes from "@/components/Restaurantes.astro";
 import Instrucciones from "@/components/Instrucciones.astro";
 const data = datos.esp;
+const bienvenidaPrivada = datos.esp.bienvenidaPrivada;
 const dataLugares = datos.esp.lugaresInteres;
 const dataServicios = datos.esp.servicios;
 const dataRestaurantes = datos.esp.restaurantes;
@@ -17,8 +18,8 @@ const dataInstrucciones = datos.esp.instrucciones;
 <LayoutPrivada>
   <a class="text-2xl p-2" href="/canblanch_privada">⬅️</a>
   <main class="flex flex-col w-full justify-center items-center">
-    <BienvenidaPrivada {data} />
-    <Conectate {data} />
+    <BienvenidaPrivada {bienvenidaPrivada} />
+    <Conectate />
     <Servicios {dataServicios} />
     <Instrucciones {dataInstrucciones} />
     <Restaurantes {dataRestaurantes} />
@@ -26,4 +27,4 @@ const dataInstrucciones = datos.esp.instrucciones;
   </main>
 </LayoutPrivada>
 
-<style></style>
+

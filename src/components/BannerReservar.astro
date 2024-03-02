@@ -1,11 +1,11 @@
 ---
-const { data } = Astro.props;
-const { botonCTA, bannerTexto } = data;
+const { bannerTexto } = Astro.props;
+const { titulo } = bannerTexto;
 import BotonReservar from "./BotonReservar.astro";
 ---
 
 <div class="contenedor">
-  <button>{bannerTexto}</button>
+  <button>{titulo}</button>
 </div>
 
 <style>

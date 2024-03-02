@@ -1,25 +1,32 @@
 ---
 import LayoutLanding from "@/layouts/LayoutLanding.astro";
+import Slider from "@/components/Slider.astro";
 import Bienvenida from "@/components/Bienvenida.astro";
+import Galeria from "@/components/Galeria.astro";
 import Quienes from "@/components/Quienes.astro";
 import BannerReservar from "@/components/BannerReservar.astro";
-import Slider from "@/components/Slider.astro";
-import datos from "@/data/data.json";
+import Descripcion from "@/components/Descripcion.astro";
 import LugaresInteres from "@/components/LugaresInteres.astro";
-import Galeria from "@/components/Galeria.astro";
+import datos from "@/data/data.json";
 const data = datos.esp;
+const slider = datos.esp.slider;
+const bienvenida = datos.esp.bienvenida;
+const quienesSomos = datos.esp.quienesSomos;
+const bannerTexto = datos.esp.bannerTexto;
+const descripcion = datos.esp.descripcion;
 const dataLugares = datos.esp.lugaresInteres;
 ---
 
 <LayoutLanding>
-  <Slider {data} />
+  <Slider {slider} />
   <main>
-    <Bienvenida {data} />
-    <Quienes {data} />
-    <BannerReservar {data} />
+    <Bienvenida {bienvenida} />
     <Galeria />
+    <Descripcion {descripcion} />
+    <BannerReservar {bannerTexto} />
+    <Quienes {quienesSomos} />
     <LugaresInteres {dataLugares} />
   </main>
 </LayoutLanding>
 
-<style></style>
+

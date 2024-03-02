@@ -6,17 +6,113 @@ const imagenes = Array.from(
 );
 ---
 
-<h2 class="text-center text-2xl font-semibold pt-4">Galeria</h2>
-<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-  {
-    imagenes.map((src, index) => (
-      <div key={index}>
-        <img
-          class="h-auto max-w-full rounded-lg"
-          src={src}
-          alt={`Imagen ${index + 4}`}
-        />
-      </div>
-    ))
-  }
+<div class="px-4">
+  <swiper-container
+    style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+    class="mySwiper"
+    thumbs-swiper=".mySwiper2"
+    space-between="10"
+    navigation="true"
+  >
+    {
+      imagenes.map((src, index) => (
+        <swiper-slide key={index}>
+          <a href={src}>
+            <img
+              class="h-auto max-w-full rounded-lg"
+              src={src}
+              alt={`Imagen ${index + 4}`}
+            />
+          </a>
+        </swiper-slide>
+      ))
+    }
+  </swiper-container>
+
+  <swiper-container
+    class="mySwiper2"
+    space-between="10"
+    slides-per-view="4"
+    free-mode="true"
+    watch-slides-progress="true"
+  >
+    {
+      imagenes.map((src, index) => (
+        <swiper-slide key={index}>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src={src}
+            alt={`Imagen ${index + 4}`}
+          />
+        </swiper-slide>
+      ))
+    }
+  </swiper-container>
 </div>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"
+></script>
+
+<style>
+  swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  swiper-container {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mySwiper {
+    height: 80%;
+    width: 100%;
+  }
+
+  .mySwiper2 {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+
+  .mySwiper2 swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .mySwiper2 .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+</style>

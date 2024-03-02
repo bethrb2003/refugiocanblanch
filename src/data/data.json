@@ -1,18 +1,39 @@
 {
   "esp": {
-    "titulo": "Refugio Can Blanch",
-    "subtitulo": "Tu escapada perfecta en la naturaleza a 45 minutos de Barcelona",
-    "tituloBienvenida": "Bienvenidos a Nuestro Refugio",
-    "textoBienvenida": "Descubre la belleza de la naturaleza y disfruta de una estadía confortable y relajante en nuestro refugio. Ideal para los amantes de la aventura y la tranquilidad.",
-    "tituloQuienesSomos": "Quiénes Somos",
-    "textoQuienesSomos": "Somos una familia apasionada por la naturaleza y el turismo sostenible. Nuestro refugio es el resultado de nuestro amor por el medio ambiente y el deseo de compartir este paraíso con nuestros visitantes.",
-    "botonCTA": "Reservar",
-    "bannerTexto": "¡Reserva ahora y en Airbnb!",
-    "tituloBienvenidos": "Bienvenido a Refugio Can Blanch",
-    "subtituloBienvenidos": "Espero que pases una excelente estancia en nuestro refugio. Si necesitas algo, no dudes en contactarnos. ¡Disfruta de tu estancia!",
+    "slider": {
+      "titulo": "Refugio Can Blanch",
+      "subtitulo": "Tu escapada perfecta en la naturaleza a 45 minutos de Barcelona",
+      "botonCTA": "Reservar"
+    },
+    "bienvenida": {
+      "titulo": "Bienvenidos a Nuestro Refugio",
+      "texto": "Descubre la belleza de la naturaleza y disfruta de una estadía confortable y relajante en nuestro refugio. Ideal para los amantes de la aventura y la tranquilidad."
+    },
+    "quienesSomos": {
+      "titulo": "Quiénes Somos",
+      "texto": "Somos una familia apasionada por la naturaleza y el turismo sostenible. Nuestro refugio es el resultado de nuestro amor por el medio ambiente y el deseo de compartir este paraíso con nuestros visitantes."
+    },
+    "bannerTexto": {
+      "titulo": "Reserva ahora y en Airbnb!"
+    },
+    "descripcion": {
+      "titulo": "Descripción del refugio",
+      "subtitulo": "El Refugio Can Blanch es un lugar ideal para desconectar y disfrutar de la naturaleza. Situado en un entorno privilegiado, rodeado de bosques y montañas, es el lugar perfecto para los amantes de la naturaleza y la tranquilidad. Nuestro refugio cuenta con cabañas de madera, cocina al aire libre, rutas de senderismo y vistas panorámicas. Además, está equipado con todos los servicios necesarios para garantizar una estancia cómoda y segura.",
+      "lista": [
+        "- Comedor grande",
+        "- Chimenea",
+        "- Cocina equipada",
+        "- 2 Habitaciones",
+        "- Sofá cama"
+      ]
+    },
+    "bienvenidaPrivada": {
+      "titulo": "Bienvenido a Refugio Can Blanch",
+      "texto": "Espero que pases una excelente estancia en nuestro refugio. Si necesitas algo, no dudes en contactarnos. ¡Disfruta de tu estancia!"
+    },
     "lugaresInteres": {
       "titulo": "Lugares de interes",
-      "imagenes": [
+      "data": [
         {
           "titulo": "Vistas panorámicas",
           "subtitulo": "Disfruta de la naturaleza en todo su esplendor",
@@ -41,7 +62,7 @@
     },
     "servicios": {
       "titulo": "Servicios",
-      "imagenes": [
+      "data": [
         {
           "nombre": "Farmacia Central",
           "telefono": "656656656",
@@ -66,7 +87,7 @@
     },
     "restaurantes": {
       "titulo": "Restaurantes",
-      "imagenes": [
+      "data": [
         {
           "nombre": "Restaurante 1",
           "telefono": "656656656",
@@ -91,7 +112,7 @@
     },
     "instrucciones": {
       "titulo": "Instrucciones",
-      "tips": [
+      "data": [
         {
           "subtitulo": "Luces",
           "instruccion": " No olvides apagar las luces al salir de la habitación"
@@ -112,19 +133,29 @@
     }
   },
   "eng": {
-    "titulo": "Can Blanch Refuge",
-    "subtitulo": "Your perfect getaway in nature, just 45 minutes away from Barcelona",
-    "tituloBienvenida": "Welcome to Our Refuge",
-    "textoBienvenida": "Discover the beauty of nature and enjoy a comfortable and relaxing stay in our refuge. Ideal for lovers of adventure and tranquility.",
-    "tituloQuienesSomos": "Who We Are",
-    "textoQuienesSomos": "We are a family passionate about nature and sustainable tourism. Our refuge is the result of our love for the environment and the desire to share this paradise with our visitors.",
-    "botonCTA": "Book Now",
-    "bannerTexto": "Book now and on Airbnb!",
-    "tituloBienvenidos": "Welcome to Can Blanch Refuge",
-    "subtituloBienvenidos": "We hope you have an excellent stay in our refuge. If you need anything, do not hesitate to contact us. Enjoy your stay!",
+    "slider": {
+      "titulo": "Can Blanch Refuge",
+      "subtitulo": "Your perfect getaway in nature, just 45 minutes away from Barcelona",
+      "botonCTA": "Book Now"
+    },
+    "bienvenida": {
+      "titulo": "Welcome to Our Refuge",
+      "texto": "Discover the beauty of nature and enjoy a comfortable and relaxing stay at our refuge. Ideal for adventure lovers and those seeking tranquility."
+    },
+    "quienesSomos": {
+      "titulo": "Who We Are",
+      "texto": "We are a family passionate about nature and sustainable tourism. Our refuge is the result of our love for the environment and our desire to share this paradise with our visitors."
+    },
+    "bannerTexto": {
+      "titulo": "Book now and on Airbnb!"
+    },
+    "bienvenidaPrivada": {
+      "titulo": "Welcome to Can Blanch Refuge",
+      "texto": "We hope you have an excellent stay at our refuge. If you need anything, do not hesitate to contact us. Enjoy your stay!"
+    },
     "lugaresInteres": {
       "titulo": "Places of Interest",
-      "imagenes": [
+      "data": [
         {
           "titulo": "Panoramic Views",
           "subtitulo": "Enjoy nature in all its splendor",
@@ -153,7 +184,7 @@
     },
     "servicios": {
       "titulo": "Services",
-      "imagenes": [
+      "data": [
         {
           "nombre": "Central Pharmacy",
           "telefono": "656656656",
@@ -178,7 +209,7 @@
     },
     "restaurantes": {
       "titulo": "Restaurants",
-      "imagenes": [
+      "data": [
         {
           "nombre": "Restaurant 1",
           "telefono": "656656656",
@@ -203,7 +234,7 @@
     },
     "instrucciones": {
       "titulo": "Instructions",
-      "tips": [
+      "data": [
         {
           "subtitulo": "Lights",
           "instruccion": "Don't forget to turn off the lights when leaving the room"
@@ -218,25 +249,46 @@
         },
         {
           "subtitulo": "Noise",
-          "instruccion": "Respect the rest of other guests, avoid making noise after 10:00 PM"
+          "instruccion": "Respect the rest of the other guests, avoid making noise after 10:00 PM"
         }
+      ]
+    },
+    "descripcion": {
+      "titulo": "Description of the Refuge",
+      "subtitulo": "Can Blanch Refuge is an ideal place to disconnect and enjoy nature. Located in a privileged environment, surrounded by forests and mountains, it is the perfect place for lovers of nature and tranquility. Our refuge has wooden cabins, outdoor kitchen, hiking trails, and panoramic views. Additionally, it is equipped with all the necessary services to ensure a comfortable and safe stay.",
+      "lista": [
+        "- Large dining room",
+        "- Fireplace",
+        "- Equipped kitchen",
+        "- 2 Bedrooms",
+        "- Sofa bed"
       ]
     }
   },
   "fra": {
-    "titulo": "Refuge Can Blanch",
-    "subtitulo": "Votre escapade parfaite dans la nature, à seulement 45 minutes de Barcelone",
-    "tituloBienvenida": "Bienvenue à Notre Refuge",
-    "textoBienvenida": "Découvrez la beauté de la nature et profitez d'un séjour confortable et relaxant dans notre refuge. Idéal pour les amoureux de l'aventure et de la tranquillité.",
-    "tituloQuienesSomos": "Qui Nous Sommes",
-    "textoQuienesSomos": "Nous sommes une famille passionnée par la nature et le tourisme durable. Notre refuge est le résultat de notre amour pour l'environnement et le désir de partager ce paradis avec nos visiteurs.",
-    "botonCTA": "Réserver",
-    "bannerTexto": "Réservez maintenant et sur Airbnb !",
-    "tituloBienvenidos": "Bienvenue au Refuge Can Blanch",
-    "subtituloBienvenidos": "Nous espérons que vous passerez un excellent séjour dans notre refuge. Si vous avez besoin de quelque chose, n'hésitez pas à nous contacter. Profitez de votre séjour !",
+    "slider": {
+      "titulo": "Refuge Can Blanch",
+      "subtitulo": "Votre escapade parfaite dans la nature, à 45 minutes de Barcelone",
+      "botonCTA": "Réserver"
+    },
+    "bienvenida": {
+      "titulo": "Bienvenue à Notre Refuge",
+      "texto": "Découvrez la beauté de la nature et profitez d'un séjour confortable et relaxant dans notre refuge. Idéal pour les amateurs d'aventure et de tranquillité."
+    },
+    "quienesSomos": {
+      "titulo": "Qui Nous Sommes",
+      "texto": "Nous sommes une famille passionnée par la nature et le tourisme durable. Notre refuge est le résultat de notre amour pour l'environnement et notre désir de partager ce paradis avec nos visiteurs."
+    },
+    "bannerTexto": {
+      "titulo": "Réservez maintenant et sur Airbnb !"
+    },
+    "bienvenidaPrivada": {
+      "titulo": "Bienvenue au Refuge Can Blanch",
+      "texto": "Nous espérons que vous passerez un excellent séjour dans notre refuge. Si vous avez besoin de quelque chose, n'hésitez pas à nous contacter. Profitez de votre séjour !"
+    },
     "lugaresInteres": {
       "titulo": "Lieux d'intérêt",
-      "imagenes": [
+      "data": [
         {
           "titulo": "Vues panoramiques",
           "subtitulo": "Profitez de la nature dans toute sa splendeur",
@@ -265,7 +317,7 @@
     },
     "servicios": {
       "titulo": "Services",
-      "imagenes": [
+      "data": [
         {
           "nombre": "Pharmacie Centrale",
           "telefono": "656656656",
@@ -290,7 +342,7 @@
     },
     "restaurantes": {
       "titulo": "Restaurants",
-      "imagenes": [
+      "data": [
         {
           "nombre": "Restaurant 1",
           "telefono": "656656656",
@@ -315,14 +367,14 @@
     },
     "instrucciones": {
       "titulo": "Instructions",
-      "tips": [
+      "data": [
         {
           "subtitulo": "Lumières",
-          "instruccion": "N'oubliez pas d'éteindre les lumières en quittant la chambre"
+          "instruccion": "N'oubliez pas d'éteindre les lumières en sortant de la chambre"
         },
         {
-          "subtitulo": "Ordures",
-          "instruccion": "Rappelez-vous de trier les ordures dans les conteneurs correspondants"
+          "subtitulo": "Déchets",
+          "instruccion": "Rappelez-vous de séparer les déchets dans les conteneurs appropriés"
         },
         {
           "subtitulo": "Eau",
@@ -330,8 +382,19 @@
         },
         {
           "subtitulo": "Bruit",
-          "instruccion": "Respectez le repos des autres invités, évitez de faire du bruit après 22h00"
+          "instruccion": "Respectez le repos des autres hôtes, évitez de faire du bruit après 22h00"
         }
+      ]
+    },
+    "descripcion": {
+      "titulo": "Description du refuge",
+      "subtitulo": "Le Refuge Can Blanch est un lieu idéal pour se déconnecter et profiter de la nature. Situé dans un environnement privilégié, entouré de forêts et de montagnes, c'est l'endroit parfait pour les amoureux de la nature et de la tranquillité. Notre refuge dispose de cabanes en bois, d'une cuisine en plein air, de sentiers de randonnée et de vues panoramiques. De plus, il est équipé de tous les services nécessaires pour garantir un séjour confortable et sûr.",
+      "lista": [
+        "- Grande salle à manger",
+        "- Cheminée",
+        "- Cuisine équipée",
+        "- 2 Chambres",
+        "- Canapé-lit"
       ]
     }
   }

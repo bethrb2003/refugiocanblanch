@@ -7,19 +7,25 @@ import Slider from "@/components/Slider.astro";
 import datos from "@/data/data.json";
 import LugaresInteres from "@/components/LugaresInteres.astro";
 import Galeria from "@/components/Galeria.astro";
+import Descripcion from "@/components/Descripcion.astro";
 const data = datos.fra;
+const slider = datos.fra.slider;
+const bienvenida = datos.fra.bienvenida;
+const descripcion = datos.fra.descripcion;
+const quienesSomos = datos.fra.quienesSomos;
+const bannerTexto = datos.fra.bannerTexto;
 const dataLugares = datos.fra.lugaresInteres;
 ---
 
 <LayoutLanding>
-  <Slider {data} />
+  <Slider {slider} />
   <main>
-    <Bienvenida {data} />
-    <Quienes {data} />
-    <BannerReservar {data} />
+    <Bienvenida {bienvenida} />
     <Galeria />
+    <Descripcion {descripcion} />
+    <BannerReservar {bannerTexto} />
+    <Quienes {quienesSomos} />
     <LugaresInteres {dataLugares} />
   </main>
 </LayoutLanding>
 
-<style></style>
