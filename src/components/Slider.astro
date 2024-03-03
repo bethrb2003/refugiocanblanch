@@ -4,14 +4,13 @@ const { titulo, subtitulo, botonCTA } = slider;
 import BotonReservar from "./BotonReservar.astro";
 ---
 
-<div class="relative z-30 flex justify-center w-full">
-  <div class="absolute w-full mt-8 text-center bg-gray-950 p-2 bg-opacity-30">
-    <h1
-      class="mb-2 text-2xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl"
-    >
+<div class="bigContainer">
+  <div class="container">
+    <h1 class="title">
       {titulo}
     </h1>
-    <p class="mb-4 text-lg font-normal lg:text-xl sm:px-16 xl:px-48 text-white">
+    <div class="lineDecoration"></div>
+    <p class="subtitle">
       {subtitulo}
     </p>
     <BotonReservar>
@@ -22,3 +21,67 @@ import BotonReservar from "./BotonReservar.astro";
     <img src="/images/foto2.webp" alt="" />
   </div>
 </div>
+
+
+<style>
+  .bigContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .container {
+    position: absolute;
+    width: 90%;
+    margin-top: 8%;
+    text-align: center;
+    background-color: rgb(3 7 18 / var(--tw-bg-opacity));
+    padding: 8px;
+    --tw-bg-opacity: 0.5;
+    height: 75%;
+  }
+
+  .title {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.025em;
+    color: #ffffff;
+    text-align: start;
+  }
+
+  .lineDecoration {
+    width: 25%;
+    height: 3px;
+    background-color: var(--primary);
+  }
+
+  .subtitle {
+    margin-bottom: 16px;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: start;
+  }
+
+  @media (min-width: 768px) {
+    .title {
+      font-size: 40px;
+    }
+
+    .subtitle {
+      font-size: 30px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .title {
+      font-size: 60px;
+    }
+    .subtitle {
+      font-size: 40px;
+    }
+  }
+
+</style>
