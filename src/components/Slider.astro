@@ -13,9 +13,12 @@ import BotonReservar from "./BotonReservar.astro";
     <p class="subtitle">
       {subtitulo}
     </p>
-    <BotonReservar>
+    <div>
+      <BotonReservar>
       {botonCTA}
     </BotonReservar>
+    </div>
+    
   </div>
   <div>
     <img src="/images/foto2.webp" alt="" />
@@ -34,12 +37,15 @@ import BotonReservar from "./BotonReservar.astro";
   .container {
     position: absolute;
     width: 90%;
-    margin-top: 20%;
+    margin-top: 25%;
     text-align: center;
     background-color: rgb(3 7 18 / var(--tw-bg-opacity));
     padding: 8px;
     --tw-bg-opacity: 0.5;
     height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .title {
