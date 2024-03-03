@@ -3,9 +3,30 @@ const { bienvenida } = Astro.props;
 const { titulo, texto } = bienvenida;
 ---
 
-<div class="flex flex-col place-items-center p-4">
-  <h1 class="text-center text-2xl font-semibold">{titulo}</h1>
+<div class="container">
+  <h1 class="title">{titulo}</h1>
   <p class="text-sm text-pretty">
     {texto}
   </p>
 </div>
+
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 16px;
+  }
+
+  .title {
+    text-align: start;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .text {
+    font-size: 14px;
+    text-align: start;
+  }
+
+</style>

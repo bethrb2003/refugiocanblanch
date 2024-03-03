@@ -1,15 +1,27 @@
-<div class="absolute z-50 top-0 right-0 flex p-1.5 gap-3">
+<div class="container">
   <a href="/">
-    <img src="/flags/es.svg" alt="Spanish Flag" class="w-5 h-5" />
+    <img src="/flags/es.svg" alt="Spanish Flag"/>
   </a>
   <a href="/eng">
-    <img src="/flags/gb.svg" alt="English Flag" class="w-5 h-5" />
+    <img src="/flags/gb.svg" alt="English Flag"/>
   </a>
   <a href="/fra">
-    <img src="/flags/fr.svg" alt="French Flag" class="w-5 h-5" />
+    <img src="/flags/fr.svg" alt="French Flag" />
   </a>
 </div>
 
 <style>
-  
+  .container {
+    position: absolute;
+    top: 0;
+    display: flex;
+    padding: 6px;
+    gap: 12px;
+    z-index: 30;
+    justify-content: flex-end
+  } 
+  .container img {
+    width: 20px;
+    height: 20px;
+  }
 </style>
