@@ -7,11 +7,11 @@
     },
     "bienvenida": {
       "titulo": "Bienvenidos a Nuestro Refugio",
-      "texto": "Al adentrarte en Can Blanch, descubrirás un rincón único, donde la serenidad de la naturaleza abraza cada momento. Este refugio, escondido entre árboles y acompañado por el canto de los pájaros, te invita a dejar atrás el estrés y sumergirte en una tranquilidad absoluta.<br/> Aquí, las rutas de senderismo te guiarán a través de paisajes impresionantes y te acercarán a sitios espectaculares, todos ellos bañados por la tranquilidad de un entorno sin igual. Al anochecer, prepárate para ser testigo de un cielo estrellado sin par, gracias a la ausencia total de contaminación lumínica.<br/> Can Blanch es más que un lugar para alojarse; es un refugio donde cada detalle busca ofrecerte paz y una conexión profunda con la naturaleza. Las noches tranquilas y el silencio son el telón de fondo perfecto para una estancia inolvidable.<br/> Te damos la bienvenida a tu escapada perfecta, donde cada día es una invitación a la relajación y el descubrimiento. Bienvenido a Can Blanch."
+      "texto": "Al adentrarte en Can Blanch, descubrirás un rincón único, donde la serenidad de la naturaleza abraza cada momento. Este refugio, escondido entre árboles y acompañado por el canto de los pájaros, te invita a dejar atrás el estrés y sumergirte en una tranquilidad absoluta.<br/> <br/>Aquí, las rutas de senderismo te guiarán a través de paisajes impresionantes y te acercarán a sitios espectaculares, todos ellos bañados por la tranquilidad de un entorno sin igual. Al anochecer, prepárate para ser testigo de un cielo estrellado sin par, gracias a la ausencia total de contaminación lumínica.<br/><br/> Can Blanch es más que un lugar para alojarse; es un refugio donde cada detalle busca ofrecerte paz y una conexión profunda con la naturaleza. Las noches tranquilas y el silencio son el telón de fondo perfecto para una estancia inolvidable.<br/> Te damos la bienvenida a tu escapada perfecta, donde cada día es una invitación a la relajación y el descubrimiento. Bienvenido a Can Blanch."
     },
     "quienesSomos": {
-      "titulo": "Quiénes Somos",
-      "texto": "Somos una familia apasionada por la naturaleza y el turismo sostenible. Nuestro refugio es el resultado de nuestro amor por el medio ambiente y el deseo de compartir este paraíso con nuestros visitantes."
+      "titulo": "La Historia de Can Blanch: Descubre Nuestros Orígenes",
+      "texto": "En 1980, Albert Blanch y Anna Nieto iniciaron un proyecto lleno de ilusión: la construcción de Can Blanch. Lo que empezó como un conjunto de paredes y sueños, poco a poco se transformó en un hogar vibrante, rebosante de vida, amor y calidez. A través de los años, cada remodelación y cada mejora reflejaron no solo su visión, sino también su compromiso por crear un espacio acogedor y familiar.<br/><br/>Can Blanch ha sido el telón de fondo de innumerables momentos felices, desde vacaciones y fines de semana hasta barbacoas y celebraciones de cumpleaños. Esos momentos de unión y felicidad han impregnado cada habitación, haciendo de la casa un lugar especial donde cada esquina cuenta una historia.<br/><br/>Nuestro deseo es compartir esa esencia de familiaridad y calidez con quienes nos visitan. Queremos que Can Blanch sea más que un lugar de paso; aspiramos a que sea un espacio donde nuestros huéspedes puedan sentirse como en casa, creando sus propios momentos inolvidables.<br/><br/>Can Blanch no es solo una casa; es un refugio familiar donde cada estancia invita a sentirse parte de su rica historia de amor y unidad."
     },
     "bannerTexto": {
       "titulo": "Reserva ahora y en Airbnb!"
@@ -28,36 +28,67 @@
       ]
     },
     "bienvenidaPrivada": {
-      "titulo": "Bienvenido a Refugio Can Blanch",
-      "texto": "Espero que pases una excelente estancia en nuestro refugio. Si necesitas algo, no dudes en contactarnos. ¡Disfruta de tu estancia!"
+      "titulo": "¡Bienvenido a casa, bienvenido a Can Blanch!",
+      "texto": "Estamos encantados de darte la bienvenida a Can Blanch, tu nuevo refugio lleno de historia, calidez y momentos inolvidables. Prepárate para sumergirte en la tranquilidad de la naturaleza, rodeado de árboles y el canto de los pájaros, donde cada rincón está impregnado de recuerdos felices y la esencia de un hogar.<br/><br/> En Can Blanch, queremos que te sientas parte de esta gran familia desde el primer momento. Que cada día aquí sea una oportunidad para relajarte, explorar y, sobre todo, crear tus propias historias en este espacio tan especial que hemos cuidado con tanto amor.<br/><br/>Recuerda que estamos aquí para hacer que tu estancia sea lo más cómoda y memorable posible. No dudes en comunicarte con nosotros para cualquier cosa que necesites. <br/><br/> ¡Gracias por elegirnos! Estamos aquí para lo que necesites durante tu estancia. Bienvenido a Can Blanch, donde cada día es una invitación a sentirte como en casa."
     },
     "lugaresInteres": {
-      "titulo": "Lugares de interes",
+      "titulo": "Descubre los Tesoros Cercanos: Lugares de Interés alrededor de Can Blanch",
       "data": [
         {
-          "titulo": "Vistas panorámicas",
-          "subtitulo": "Disfruta de la naturaleza en todo su esplendor",
-          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RI-51-0005209.jpg/1280px-RI-51-0005209.jpg",
-          "enlace": "https://www.google.com"
+          "titulo": "Barcelona",
+          "subtitulo": "A solo 45 minutos de Can Blanch, Barcelona es una ciudad vibrante y llena de vida. Descubre su rica historia, su arquitectura impresionante y su deliciosa gastronomía.",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941_%28cropped%29.jpg/800px-%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941_%28cropped%29.jpg",
+          "enlace": "https://es.wikipedia.org/wiki/Barcelona"
         },
         {
-          "titulo": "Cabañas acogedoras",
-          "subtitulo": "Descansa en nuestras cabañas de madera",
-          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RI-51-0005209.jpg/1280px-RI-51-0005209.jpg",
-          "enlace": "https://www.google.com"
+          "titulo": "Monasterio Sant Miquel del Fai",
+          "subtitulo": "Sant Miquel del Fai. Espacio Natural de los Cingles de Bertí",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RI-51-0005209.jpg/1024px-RI-51-0005209.jpg",
+          "enlace": "https://parcs.diba.cat/es/web/cinglesberti/reserves-sant-miquel-del-fai"
         },
         {
-          "titulo": "Rutas de senderismo",
-          "subtitulo": "Explora los alrededores y descubre la fauna y flora local",
-          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RI-51-0005209.jpg/1280px-RI-51-0005209.jpg",
-          "enlace": "https://www.google.com"
+          "titulo": "Cim d’Àguiles",
+          "subtitulo": "Vuelo libre de aves Rapaces",
+          "foto": "https://www.termesvictoria.com/images/posts/0/0//o/cim-daguiles-a-sant-feliu-de-codines-h-1664270689.jpg",
+          "enlace": "https://cimdaligues.com/es/"
         },
         {
-          "titulo": "Cocina al aire libre",
-          "subtitulo": "Prepara tus comidas en nuestra cocina al aire libre",
-          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RI-51-0005209.jpg/1280px-RI-51-0005209.jpg",
-          "enlace": "https://www.google.com"
+          "titulo": "Parc Usart",
+          "subtitulo": "Hogar, del Árbol y de la Flor",
+          "foto": "https://www.santfeliudecodines.cat/media/repository/import/imatges/locations/Juanita_Farras_1.jpg",
+          "enlace": "https://www-santfeliudecodines-cat.translate.goog/turisme/llocs-dinteres/parc-usart.html?_x_tr_sl=ca&_x_tr_tl=es&_x_tr_hl=esie%3DUTF-8"
+        },
+        {
+          "titulo": "Gorg Negre",
+          "subtitulo": "Gorgs del Tenes, Riera de Riells del Fai: Gorg d'en Jeroni, Beines, Manelet, Negre, Balma Rosa i Fai",
+          "foto": "https://s0.wklcdn.com/image_22/676598/13711736/8677401Master.jpg",
+          "enlace": "https://es.wikiloc.com/rutas-senderismo/gorgs-del-tenes-riera-de-riells-del-fai-gorg-den-jeroni-beines-manelet-negre-balma-rosa-i-fai-13711736"
+        },
+        {
+          "titulo": "Castillo de Montbui",
+          "subtitulo": "El castillo, documentado desde 987, era la residencia de la baronía de Montbúy.",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Castell_de_Montbui_2.JPG/800px-Castell_de_Montbui_2.JPG",
+          "enlace": "https://es.wikiloc.com/rutas-senderismo/gorgs-del-tenes-riera-de-riells-del-fai-gorg-den-jeroni-beines-manelet-negre-balma-rosa-i-fai-13711736"
+        },
+        {
+          "titulo": "Museo Thermalia",
+          "subtitulo": "Museo donde encontrarás unas termas romanas, una capilla románica, un edificio gótico civil y una casa solariega del siglo XVIII.",
+          "foto": "https://visitmuseum.gencat.cat/media/cache/1140x684_portrait/uploads/museums/photos/57715b428ae78_thermalia-museu-de-caldes-de-montbui.jpeg",
+          "enlace": "https://visitmuseum.gencat.cat/es/thermalia-museu-de-caldes-de-montbui"
+        },
+        {
+          "titulo": "Font del Lleó",
+          "subtitulo": "Fuente de aguas termales",
+          "foto": "https://patrimonicultural.diba.cat/sites/default/files/imatges/08033/42448-foto-08033-7-1.jpg",
+          "enlace": "https://patrimonicultural.diba.cat/element/font-del-lleo"
+        },
+        {
+          "titulo": "Hotel Balneari Termes Victòria",
+          "subtitulo": "Oasis de Relax y Bienestar Termal en el Centro Histórico de Caldes de Montbui",
+          "foto": "https://www.termesvictoria.com/images/products/0/5/balneari/piscina-termal-exterior-espai-cel-h-1625648164.jpg",
+          "enlace": "https://www.termesvictoria.com/"
         }
+        
       ]
     },
     "servicios": {
