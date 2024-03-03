@@ -5,26 +5,35 @@ const { titulo, data } = dataLugares;
 ---
 
 <section class="flex flex-col justify-center items-center pt-4">
-  <h2 class="text-2xl font-semibold pb-2">{titulo}</h2>
+  <h2 class="text-2xl font-semibold pb-2 px-4">{titulo}</h2>
   <div class="grid grid-cols-2 md:grid-cols-3 gap-2 px-4 pb-4">
-    {data.map((imagen, index) => (
-      <div key={index} class="max-w-sm bg-white rounded-lg shadow-xl">
-        <a href="#" target="_blank">
-          <img class="rounded-t-lg" src={imagen.foto} alt="" />
-        </a>
-        <div class="p-2">
-          <a href="#">
-            <h5 class="text-lg font-bold tracking-tight text-negro">
-              {imagen.titulo}
-            </h5>
+    {
+      data.map((imagen, index) => (
+        <div
+          key={index}
+          class="relative max-w-sm bg-white rounded-lg shadow-xl"
+        >
+          <a href={imagen.enlace} target="_blank">
+            <img
+              class="rounded-t-lg object-cover h-36 w-full"
+              src={imagen.foto}
+              alt=""
+            />
           </a>
-          <p class="mb-2 font-normal text-negro text-xs">
-            {imagen.subtitulo}
-          </p>
-
-          <BotonNormal enlace={imagen.enlace}>Ver Mas</BotonNormal>
+          <div class="p-2">
+            <h5 class="font-bold text-sm mb-2 text-negro">{imagen.titulo}</h5>
+            <p class="mb-2 font-normal text-negro text-xs">
+              {imagen.subtitulo}
+            </p>
+          </div>
+          <div class="h-8">
+            
+          </div>
+          <div class="p-2 absolute bottom-0 right-0">
+            <BotonNormal enlace={imagen.enlace}>Ver Mas</BotonNormal>
+          </div>
         </div>
-      </div>
-    ))}
+      ))
+    }
   </div>
 </section>
