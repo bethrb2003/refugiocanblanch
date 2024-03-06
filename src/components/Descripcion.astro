@@ -26,21 +26,38 @@ const { titulo, subtitulo, lista } = descripcion;
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
   }
   .title {
-    text-align: start;
-    font-size: 24px;
+    text-align: center;
+    font-size: 22px;
     font-weight: 600;
   }
 
   .subtitle {
     font-size: 14px;
-    text-align: start;
+    text-align: justify;
   }
 
   .list {
     text-align: left;
     padding: 0 16px;
+  }
+
+  @keyframes show {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+    
   }
 
 </style>

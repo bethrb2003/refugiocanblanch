@@ -9,13 +9,16 @@ import BotonReservar from "./BotonReservar.astro";
     <h1 class="title">
       {titulo}
     </h1>
-    <div class="lineDecoration"></div>
     <p class="subtitle">
       {subtitulo}
     </p>
-    <BotonReservar>
+    <div class="lineDecoration"></div>
+    <br>
+    <div>
+      <BotonReservar>
       {botonCTA}
     </BotonReservar>
+    </div>
   </div>
   <div>
     <img src="/images/foto2.webp" alt="" />
@@ -28,28 +31,31 @@ import BotonReservar from "./BotonReservar.astro";
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
   }
 
   .container {
     position: absolute;
-    width: 90%;
-    margin-top: 8%;
+    width: 80%;
     text-align: center;
     background-color: rgb(3 7 18 / var(--tw-bg-opacity));
     padding: 8px;
     --tw-bg-opacity: 0.5;
-    height: 75%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .title {
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 29px;
     font-weight: 800;
     line-height: 1;
     letter-spacing: -0.025em;
     color: #ffffff;
-    text-align: start;
+    text-align: center;
   }
 
   .lineDecoration {
@@ -62,8 +68,14 @@ import BotonReservar from "./BotonReservar.astro";
     margin-bottom: 16px;
     font-size: 15px;
     color: #ffffff;
-    text-align: start;
+    text-align: center;
   }
+
+  img {
+    height: 90vh;
+    object-fit: cover; 
+  }
+  
 
   @media (min-width: 768px) {
     .title {
