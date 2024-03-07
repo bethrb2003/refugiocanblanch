@@ -5,6 +5,9 @@ const { titulo, texto } = bienvenida;
 
 <div class="container">
   <h2 class="title">{titulo}</h2>
+  <div class="decorationContainer">
+  <div class="lineDecoration"></div>  
+  </div>
   <p set:html={texto} class="text" />
 </div>
 
@@ -14,6 +17,13 @@ const { titulo, texto } = bienvenida;
     flex-direction: column;
     place-items: center;
     padding: 16px;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10% 0;
     view-timeline-name: --image;
     view-timeline-axis: block;
     animation-timeline: --image;
@@ -22,15 +32,33 @@ const { titulo, texto } = bienvenida;
     animation-fill-mode: both;
   }
 
-  .title {
-    text-align: center;
-    font-size: 22px;
-    font-weight: 600;
+  .decorationContainer {
+    width: 100%;
+    height: 2%;
+    margin-bottom: 25px;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+  }
+
+  .lineDecoration {
+    width: 30%;
+    height: 3px;
+    background-color: var(--primary);
   }
 
   .text {
     font-size: 14px;
     text-align: justify;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 10% cover 50%;
+    animation-fill-mode: both;
   }
 
   @keyframes show {

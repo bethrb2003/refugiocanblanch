@@ -4,9 +4,10 @@ interface Props {
 }
 
 const { title } = Astro.props;
-// Supports weights 100-900
+
 import "@fontsource/montserrat";
 import "@fontsource/kalam";
+import '@fontsource-variable/playfair-display';
 ---
 
 <!doctype html>
@@ -33,7 +34,7 @@ import "@fontsource/kalam";
 </html>
 <style is:global>
   :root {
-    --primary: #dc0e63;
+    --primary: #9EC072;
     --secondary: #f67caf;
     --blanco: #ffffff;
     --negro: #000000;
@@ -41,8 +42,16 @@ import "@fontsource/kalam";
 
   html,
   body {
-    font-family: "montserrat", sans-serif;
+    font-family: 'Playfair Display Variable', serif;
     position: relative;
     height: 100%;
+    color: var(--negro);
+    background-color: #F6F9F1;
   }
 </style>
+
+<!-- #f0d1c0 -->
+<!-- #adc988 -->
+<!-- #e0cec5 -->
+E3ECD5
+ECF2E3
