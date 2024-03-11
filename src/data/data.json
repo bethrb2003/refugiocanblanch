@@ -10,7 +10,8 @@
       "texto": "Al adentrarte en Can Blanch, descubrirás un rincón único, donde la serenidad de la naturaleza abraza cada momento. Este refugio, escondido entre árboles y acompañado por el canto de los pájaros, te invita a dejar atrás el estrés y sumergirte en una tranquilidad absoluta.<br/> <br/>Aquí, las rutas de senderismo te guiarán a través de paisajes impresionantes y te acercarán a sitios espectaculares, todos ellos bañados por la tranquilidad de un entorno sin igual. Al anochecer, prepárate para ser testigo de un cielo estrellado sin par, gracias a la ausencia total de contaminación lumínica.<br/><br/> Can Blanch es más que un lugar para alojarse; es un refugio donde cada detalle busca ofrecerte paz y una conexión profunda con la naturaleza. Las noches tranquilas y el silencio son el telón de fondo perfecto para una estancia inolvidable.<br/> Te damos la bienvenida a tu escapada perfecta, donde cada día es una invitación a la relajación y el descubrimiento. Bienvenido a Can Blanch."
     },
     "quienesSomos": {
-      "titulo": "La Historia de Can Blanch: Descubre Nuestros Orígenes",
+      "subtitulo": "La Historia de Can Blanch",
+      "titulo": "Descubre Nuestros Orígenes",
       "texto": "En 1980, Albert Blanch y Anna Nieto iniciaron un proyecto lleno de ilusión: la construcción de Can Blanch. Lo que empezó como un conjunto de paredes y sueños, poco a poco se transformó en un hogar vibrante, rebosante de vida, amor y calidez. A través de los años, cada remodelación y cada mejora reflejaron no solo su visión, sino también su compromiso por crear un espacio acogedor y familiar.<br/><br/>Can Blanch ha sido el telón de fondo de innumerables momentos felices, desde vacaciones y fines de semana hasta barbacoas y celebraciones de cumpleaños. Esos momentos de unión y felicidad han impregnado cada habitación, haciendo de la casa un lugar especial donde cada esquina cuenta una historia.<br/><br/>Nuestro deseo es compartir esa esencia de familiaridad y calidez con quienes nos visitan. Queremos que Can Blanch sea más que un lugar de paso; aspiramos a que sea un espacio donde nuestros huéspedes puedan sentirse como en casa, creando sus propios momentos inolvidables.<br/><br/>Can Blanch no es solo una casa; es un refugio familiar donde cada estancia invita a sentirse parte de su rica historia de amor y unidad."
     },
     "bannerTexto": {
@@ -18,21 +19,15 @@
     },
     "descripcion": {
       "titulo": "Descripción del refugio",
-      "subtitulo": "El Refugio Can Blanch es un lugar ideal para desconectar y disfrutar de la naturaleza. Situado en un entorno privilegiado, rodeado de bosques y montañas, es el lugar perfecto para los amantes de la naturaleza y la tranquilidad. Nuestro refugio cuenta con cabañas de madera, cocina al aire libre, rutas de senderismo y vistas panorámicas. Además, está equipado con todos los servicios necesarios para garantizar una estancia cómoda y segura.",
-      "lista": [
-        "- Comedor grande",
-        "- Chimenea",
-        "- Cocina equipada",
-        "- 2 Habitaciones",
-        "- Sofá cama"
-      ]
+      "subtitulo": "Nuestro refugio rural, Can Blanch, es un espacio donde el estilo ecléctico se combina con la comodidad para crear un ambiente hogareño y acogedor. El salón comedor se abre a una cocina encantadora, formando el corazón de la casa. Las sillas de diferentes colores añaden un toque de alegría y singularidad, mientras que la cocina, con su precioso tono verde, inspira tranquilidad y armonía con la naturaleza.<br/><br/>Para vuestro confort, el salón está equipado con un sofá cama capaz de alojar a dos personas, perfecto para esos momentos de relajación frente al televisor, al cual podréis conectaros fácilmente desde vuestro móvil. La conexión wifi está disponible para satisfacer todas vuestras necesidades digitales. La cocina viene completamente equipada con nevera, microondas, calienta agua, tostadora, platos, cubiertos y vasos, asegurando que tengáis todo lo necesario a mano.<br/><br/>La lavadora y la secadora se encuentran en un lavadero accesible desde el exterior, lo que facilita las tareas domésticas sin interferir con la paz del espacio interior.<br/><br/>La casa cuenta con dos habitaciones que se adaptan perfectamente a vuestras necesidades. Una habitación más pequeña ofrece literas y un armario, ideal para niños o amigos. La habitación principal es amplia, con una cama de matrimonio y espacio suficiente para colocar un colchón hinchable, ofreciendo la posibilidad de compartir el espacio con los niños si así lo deseáis.<br/><br/>La casa dispone de un baño equipado con ducha y un amplio lavamanos, y un aseo adicional con inodoro y lavamanos, pensado para proporcionar comodidad y funcionalidad a todos los huéspedes. <br/><br/>Can Blanch ha sido diseñado y preparado con mucho amor y cuidado, pensando en cada detalle para asegurar que vuestra estancia sea tan cómoda, relajante y memorable como sea posible. Este es un lugar donde podéis sentir la esencia de un hogar, un espacio para vivir historias y crear recuerdos que perdurarán."
     },
     "bienvenidaPrivada": {
       "titulo": "¡Bienvenido a casa, bienvenido a Can Blanch!",
       "texto": "Estamos encantados de darte la bienvenida a Can Blanch, tu nuevo refugio lleno de historia, calidez y momentos inolvidables. Prepárate para sumergirte en la tranquilidad de la naturaleza, rodeado de árboles y el canto de los pájaros, donde cada rincón está impregnado de recuerdos felices y la esencia de un hogar.<br/><br/> En Can Blanch, queremos que te sientas parte de esta gran familia desde el primer momento. Que cada día aquí sea una oportunidad para relajarte, explorar y, sobre todo, crear tus propias historias en este espacio tan especial que hemos cuidado con tanto amor.<br/><br/>Recuerda que estamos aquí para hacer que tu estancia sea lo más cómoda y memorable posible. No dudes en comunicarte con nosotros para cualquier cosa que necesites. <br/><br/> ¡Gracias por elegirnos! Estamos aquí para lo que necesites durante tu estancia. Bienvenido a Can Blanch, donde cada día es una invitación a sentirte como en casa."
     },
     "lugaresInteres": {
-      "titulo": "Descubre los Tesoros Cercanos: Lugares de Interés alrededor de Can Blanch",
+      "subtitulo": "Descubre los Tesoros Cercanos",
+      "titulo": "Lugares de Interés alrededor de Can Blanch",
       "data": [
         {
           "titulo": "Barcelona",
@@ -88,7 +83,6 @@
           "foto": "https://www.termesvictoria.com/images/products/0/5/balneari/piscina-termal-exterior-espai-cel-h-1625648164.jpg",
           "enlace": "https://www.termesvictoria.com/"
         }
-        
       ]
     },
     "servicios": {
@@ -177,7 +171,7 @@
       "titulo": "The Story of Can Blanch: Discover Our Origins",
       "texto": "In 1980, Albert Blanch and Anna Nieto began a project full of hope: the construction of Can Blanch. What started as a set of walls and dreams gradually transformed into a vibrant home, brimming with life, love, and warmth. Over the years, each remodeling and improvement reflected not only their vision but also their commitment to creating a cozy and familiar space.<br/><br/>Can Blanch has been the backdrop for countless happy moments, from holidays and weekends to barbecues and birthday celebrations. Those moments of union and happiness have permeated every room, making the house a special place where every corner tells a story.<br/><br/>Our wish is to share that essence of familiarity and warmth with those who visit us. We want Can Blanch to be more than a place of passage; we aspire for it to be a space where our guests can feel at home, creating their own unforgettable moments.<br/><br/>Can Blanch is not just a house; it is a family refuge where every stay invites you to feel part of its rich history of love and unity."
     },
-    
+
     "bannerTexto": {
       "titulo": "Book now on Airbnb!"
     },
@@ -186,7 +180,8 @@
       "texto": "We are delighted to welcome you to Can Blanch, your new refuge full of history, warmth, and unforgettable moments. Get ready to immerse yourself in the tranquility of nature, surrounded by trees and the song of birds, where every corner is imbued with happy memories and the essence of a home.<br/><br/> At Can Blanch, we want you to feel part of this great family from the first moment. May each day here be an opportunity to relax, explore, and above all, create your own stories in this very special space that we have cared for with so much love.<br/><br/>Remember, we are here to make your stay as comfortable and memorable as possible. Do not hesitate to contact us for anything you need. <br/><br/> Thank you for choosing us! We are here for whatever you need during your stay. Welcome to Can Blanch, where every day is an invitation to feel at home."
     },
     "lugaresInteres": {
-      "titulo": "Discover Nearby Treasures: Places of Interest around Can Blanch",
+      "subtitulo": "Discover Nearby Treasures",
+      "titulo": "Places of Interest around Can Blanch",
       "data": [
         {
           "titulo": "Barcelona",
@@ -244,7 +239,7 @@
         }
       ]
     },
-    
+
     "servicios": {
       "titulo": "Services",
       "data": [
@@ -342,7 +337,7 @@
       "titulo": "L'Histoire de Can Blanch : Découvrez Nos Origines",
       "texto": "En 1980, Albert Blanch et Anna Nieto ont commencé un projet plein d'espoir : la construction de Can Blanch. Ce qui a commencé comme un ensemble de murs et de rêves s'est progressivement transformé en un foyer vibrant, débordant de vie, d'amour et de chaleur. Au fil des années, chaque rénovation et amélioration a reflété non seulement leur vision mais aussi leur engagement à créer un espace accueillant et familier.<br/><br/>Can Blanch a été le cadre d'innombrables moments heureux, des vacances et week-ends aux barbecues et célébrations d'anniversaires. Ces moments d'union et de bonheur ont imprégné chaque pièce, faisant de la maison un lieu spécial où chaque coin raconte une histoire.<br/><br/>Notre souhait est de partager cette essence de familiarité et de chaleur avec ceux qui nous rendent visite. Nous voulons que Can Blanch soit plus qu'un lieu de passage ; nous aspirons à ce qu'il soit un espace où nos hôtes peuvent se sentir chez eux, créant leurs propres moments inoubliables.<br/><br/>Can Blanch n'est pas juste une maison ; c'est un refuge familial où chaque séjour vous invite à vous sentir partie intégrante de sa riche histoire d'amour et d'unité."
     },
-    
+
     "bannerTexto": {
       "titulo": "Réservez maintenant sur Airbnb !"
     },
@@ -351,7 +346,8 @@
       "texto": "Nous sommes ravis de vous accueillir à Can Blanch, votre nouveau refuge plein d'histoire, de chaleur et de moments inoubliables. Préparez-vous à vous plonger dans la tranquillité de la nature, entouré d'arbres et du chant des oiseaux, où chaque coin est imprégné de souvenirs heureux et de l'essence d'un foyer.<br/><br/> À Can Blanch, nous voulons que vous vous sentiez partie de cette grande famille dès le premier instant. Que chaque jour ici soit une opportunité de vous détendre, d'explorer et, surtout, de créer vos propres histoires dans cet espace si spécial que nous avons entretenu avec tant d'amour.<br/><br/>Souvenez-vous, nous sommes ici pour rendre votre séjour aussi confortable et mémorable que possible. N'hésitez pas à nous contacter pour tout ce dont vous avez besoin. <br/><br/> Merci de nous avoir choisis ! Nous sommes ici pour tout ce dont vous avez besoin pendant votre séjour. Bienvenue à Can Blanch, où chaque jour est une invitation à vous sentir comme chez vous."
     },
     "lugaresInteres": {
-      "titulo": "Découvrez les Trésors à Proximité : Lieux d'Intérêt autour de Can Blanch",
+      "subtitulo": "Découvrez les Trésors à Proximité",
+      "titulo": "Lieux d'Intérêt autour de Can Blanch",
       "data": [
         {
           "titulo": "Barcelone",
@@ -409,7 +405,7 @@
         }
       ]
     },
-    
+
     "servicios": {
       "titulo": "Services",
       "data": [

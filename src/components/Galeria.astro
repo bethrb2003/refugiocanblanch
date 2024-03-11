@@ -5,8 +5,8 @@ const imagenes = Array.from(
   (_, i) => `/casa/foto${i + 4}.webp`
 );
 ---
-
-<div class="px-4">
+<section class="slider">
+  <div class="bigContainer">
   <swiper-container
     style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
     class="mySwiper"
@@ -49,12 +49,21 @@ const imagenes = Array.from(
     }
   </swiper-container>
 </div>
+</section>
+
 
 <script
   src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"
 ></script>
 
 <style>
+  .bigContainer {
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 900px;
+  }
+
+
   swiper-container {
     width: 100%;
     height: 100%;
@@ -122,6 +131,12 @@ const imagenes = Array.from(
     object-fit: cover;
   }
 
+  @media (min-width: 1024px) {
+    .bigContainer {
+      margin-left: 25%;
+    }
+  }
+
   @keyframes show {
     from {
       opacity: 0;
@@ -132,4 +147,5 @@ const imagenes = Array.from(
     }
     
   }
+
 </style>

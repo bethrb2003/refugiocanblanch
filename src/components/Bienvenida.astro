@@ -15,15 +15,15 @@ const { titulo, texto } = bienvenida;
   .container {
     display: flex;
     flex-direction: column;
-    place-items: center;
     padding: 16px;
+    width: 100vw;
   }
 
   .title {
-    text-align: center;
+    text-align: start;
     font-size: 22px;
     font-weight: 600;
-    padding: 10% 0;
+    padding: 20px 0;
     view-timeline-name: --image;
     view-timeline-axis: block;
     animation-timeline: --image;
@@ -59,6 +59,34 @@ const { titulo, texto } = bienvenida;
     animation-name: show;
     animation-range: entry 10% cover 50%;
     animation-fill-mode: both;
+  }
+
+  @media (min-width: 768px) {
+    .title {
+      font-size: 35px;
+      margin-left: 20px;
+    }
+    .decorationContainer {
+      margin-left: 20px;
+    }
+    .text {
+      margin-left: 20px;
+      font-size: 15px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .title {
+      font-size: 40px;
+      margin-left: 40px;
+    }
+    .decorationContainer {
+      margin-left: 40px;
+    }
+    .text {
+      margin-left: 40px;
+      font-size: 17px;
+    }
   }
 
   @keyframes show {

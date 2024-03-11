@@ -1,39 +1,177 @@
 ---
 import BotonNormal from "@/components/BotonNormal.astro";
 const { dataLugares } = Astro.props;
-const { titulo, data } = dataLugares;
+const { titulo, subtitulo, data } = dataLugares;
 ---
 
-<section class="flex flex-col justify-center items-center pt-4">
-  <h2 class="text-2xl font-semibold pb-2 px-4">{titulo}</h2>
-  <div class="grid grid-cols-2 md:grid-cols-3 gap-2 px-4 pb-4">
+<section class="bigContainer">
+  <div class="subtitleContainer">
+    <h3 class="subtitle">{subtitulo}</h3>
+  <div class="lineDecoration"></div>
+  </div>
+  <h2 class="title">{titulo}</h2>
+  <div class="boxContainer">
     {
       data.map((imagen, index) => (
         <div
           key={index}
-          class="relative max-w-sm bg-white rounded-lg shadow-xl"
+          class="box"
         >
           <a href={imagen.enlace} target="_blank">
             <img
-              class="rounded-t-lg object-cover h-36 w-full"
               src={imagen.foto}
               alt=""
             />
           </a>
-          <div class="p-2">
-            <h5 class="font-bold text-sm mb-2 text-negro">{imagen.titulo}</h5>
-            <p class="mb-2 font-normal text-negro text-xs">
+          <div class="boxInfo">
+            <h5 class="infoTitle">{imagen.titulo}</h5>
+            <p class="info">
               {imagen.subtitulo}
             </p>
-          </div>
-          <div class="h-8">
-            
-          </div>
-          <div class="p-2 absolute bottom-0 right-0">
+            <div class="spaceDiv"></div>
+            <div class="button">
             <BotonNormal enlace={imagen.enlace}>Ver Mas</BotonNormal>
+          </div>
           </div>
         </div>
       ))
     }
   </div>
 </section>
+
+<style>
+  .bigContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+  }
+  .title {
+    font-size: 24px ;
+    font-weight: 600;
+    padding-bottom:  8px ;
+    padding-left:  16px ;
+    padding-right: 16px ;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+  }
+
+  .subtitleContainer {
+    display: flex;
+    align-items: center;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+  }
+
+  .subtitle {
+    font-size: 20px ;
+    font-weight: 500;
+    padding-right: 10px ;
+  }
+
+  .lineDecoration {
+    height: 1px;
+    width: 60px;
+    background-color: var(--negro);
+  }
+
+  .boxContainer {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    padding: 16px 16px 16px 16px;
+  }
+
+  .box {
+    position: relative;
+    max-width: 384px;
+    background-color: #F6F9F1;
+    border-radius: 8px;
+    box-shadow: 0px 10px 15px 0px  rgba(0,0,0,0.5);
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+  }
+
+  .box img {
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+    height: 144px;
+    width: 100%;
+  }
+
+  .boxInfo {
+    padding: 8px;
+  }
+
+  .infoTitle {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: var(--negro);
+  }
+
+  .spaceDiv {
+    height: 40px;
+  }
+  
+  .info {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--negro);
+  }
+
+  .button {
+    padding: 0.5rem/* 8px */;
+    position: absolute;
+    bottom: 0px;
+    right: 0px
+  }
+
+  @media (min-width: 768px) {
+    .boxContainer {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .title {
+      font-size: 35px;
+    }
+    .subtitle {
+      font-size: 25px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .title {
+      font-size: 40px;
+    }
+    .subtitle {
+      font-size: 30px;
+    }
+  }
+
+
+  @keyframes show {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+    
+  }
+
+</style>

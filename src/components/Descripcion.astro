@@ -1,31 +1,27 @@
 ---
 const { descripcion } = Astro.props;
-const { titulo, subtitulo, lista } = descripcion;
+const { titulo, subtitulo} = descripcion;
 ---
 
-<div>
   <div class="contenedor">
     <h2 class="title">{titulo}</h2>
-    <p class="subtitle">
-      {subtitulo}
-    </p>
+    <p set:html={subtitulo} class="text" />
+
   </div>
-  <ul class="list">
-    {
-      lista.map((item, index) => (
-        <li class="list-item" key={index}>
-          {item}
-        </li>
-      ))
-    }
-  </ul>
-</div>
 
 <style>
   .contenedor {
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    
+  }
+  .title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px 0;
+    margin-top: 20px;
     view-timeline-name: --image;
     view-timeline-axis: block;
     animation-timeline: --image;
@@ -33,21 +29,38 @@ const { titulo, subtitulo, lista } = descripcion;
     animation-range: entry 25% cover 50%;
     animation-fill-mode: both;
   }
-  .title {
-    text-align: center;
-    font-size: 22px;
-    font-weight: 600;
-  }
 
-  .subtitle {
-    font-size: 14px;
+  .text {
     text-align: justify;
+    margin-bottom: 40px;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+    font-size: 14px;
   }
 
-  .list {
-    text-align: left;
-    padding: 0 16px;
-    font-size: 14px;
+
+  @media (min-width: 768px) {
+    .title {
+      font-size: 35px;
+    }
+    .text {
+      margin-left: 20px;
+      font-size: 15px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .title {
+      font-size: 40px;
+    }
+    .text {
+      margin-left: 40px;
+      font-size: 17px;
+    }
   }
 
   @keyframes show {
