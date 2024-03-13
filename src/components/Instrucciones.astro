@@ -31,12 +31,24 @@ const { titulo, data, intro, text } = dataInstrucciones;
     font-size: 24px;
     font-weight: 700;
     text-align: center;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
   }
 
   .text {
     margin: 16px 0;
     padding: 0 8px;
     text-align: justify;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
   }
 
   .instructions {
@@ -48,10 +60,34 @@ const { titulo, data, intro, text } = dataInstrucciones;
   .subtitle {
     font-size: 16px;
     font-weight: 600;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
   }
 
   .info {
     font-size: 16px;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
   }
+
+  @keyframes show {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+    
+  }
+
 
 </style>

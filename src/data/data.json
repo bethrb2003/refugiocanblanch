@@ -115,7 +115,7 @@
       "data": [
         {
           "nombre": "Restaurante Can Oliveras",
-          "telefono": "93 865 88 92",
+          "telefono": "938658892",
           "web": "http://www.restaurantcanoliveras.com/",
           "map": "https://maps.app.goo.gl/n62RTDdGdhhrRiPa9"
         },
@@ -127,7 +127,7 @@
         },
         {
           "nombre": "Restaurante Tr3s Tombs",
-          "telefono": "938 66 38 83",
+          "telefono": "938663883",
           "web": "https://www.facebook.com/people/Tres-Tombs/100058708762097/",
           "map": "https://maps.app.goo.gl/sC1PViS7hV5AtZ828"
         }
@@ -163,30 +163,30 @@
     },
 
     "wifi": {
-      "titulo": "",
-      "intro": "",
-      "text": "",
+      "titulo": "Wifi y entretenimiento",
+      "intro": "Para disfrutar del servicio de WiFi y entretenimiento en el Refugio Can Blanch, sigue estos sencillos pasos:",
+      "text": "Recuerda, si tienes alguna duda o problema con el servicio, no dudes en contactarnos. ¡Esperamos que disfrutes de tu estancia en el Refugio Can Blanch!",
       "data": [
         {
-          "subtitulo": "",
-          "info": "-",
-          "info2": "-"
+          "subtitulo": "Conexión WiFi",
+          "info": "- Busca la red WiFi llamada CAN_BLANCH en tus dispositivos.",
+          "info2": "- Conéctate a ella; no te preocupes por buscar una contraseña, ya que no requiere de una para acceder"
         },
         {
-          "subtitulo": "",
-          "info": "-",
-          "info2": "-",
-          "info3": "-",
-          "info4": "-"
+          "subtitulo": "Televisión y Entretenimiento",
+          "info": "- Enciende la televisión y selecciona la entrada HDMI3. Aquí encontrarás conectado un dispositivo FIRE TV.",
+          "info2": "- El FIRE TV está equipado con aplicaciones como PRIME, NETFLIX, y DISNEY para tu disfrute.",
+          "info3": "- Incluimos una cuenta de PRIME para los huéspedes. Ten en cuenta que no se pueden alquilar o comprar películas mediante esta cuenta, pero tienes acceso a un amplio catálogo de contenido gratuito.",
+          "info4": "- Además, el FIRE TV te permite ver la televisión en directo, ampliando tus opciones de entretenimiento."
         },
         {
-          "subtitulo": "",
-          "info": "-",
-          "info2": "-"
+          "subtitulo": "Mandos",
+          "info": "- Utiliza el mando de la televisión para controlar el volumen, cambiar la entrada a HDMI3, y encender o apagar el televisor.",
+          "info2": "- Para navegar por las aplicaciones instaladas en el FIRE TV, como PRIME, NETFLIX, y DISNEY, o para ver la televisión en directo, utiliza el mando del FIRE TV."
         },
         {
-          "subtitulo": "",
-          "info": "-"
+          "subtitulo": "Velocidad de Internet",
+          "info": "- La velocidad del WiFi en el Refugio Can Blanch es de 80Mbps de descarga y 10Mbps de subida, asegurando una experiencia fluida ya sea que estés navegando por internet, trabajando, o disfrutando de tu contenido multimedia favorito."
         }
       ]
     }
@@ -305,7 +305,7 @@
       "data": [
         {
           "nombre": "Restaurant Can Oliveras",
-          "telefono": "93 865 88 92",
+          "telefono": "938658892",
           "web": "http://www.restaurantcanoliveras.com/",
           "map": "https://maps.app.goo.gl/n62RTDdGdhhrRiPa9"
         },
@@ -317,7 +317,7 @@
         },
         {
           "nombre": "Restaurant Tr3s Tombs",
-          "telefono": "938 66 38 83",
+          "telefono": "938663883",
           "web": "https://www.facebook.com/people/Tres-Tombs/100058708762097/",
           "map": "https://maps.app.goo.gl/sC1PViS7hV5AtZ828"
         }
@@ -351,6 +351,36 @@
         }
       ]
     },
+
+    "wifi": {
+      "titulo": "WiFi and entertainment",
+      "intro": "To enjoy the WiFi and entertainment service at Can Blanch Retreat, follow these simple steps:",
+      "text": "Remember, if you have any questions or issues with the service, do not hesitate to contact us. We hope you enjoy your stay at Can Blanch Retreat!",
+      "data": [
+        {
+          "subtitulo": "WiFi Connection",
+          "info": "- Look for the WiFi network named CAN_BLANCH on your devices.",
+          "info2": "- Connect to it; no need to search for a password, as it doesn't require one for access."
+        },
+        {
+          "subtitulo": "Television and Entertainment",
+          "info": "- Turn on the television and select the HDMI3 input. Here you'll find a FIRE TV device connected.",
+          "info2": "- The FIRE TV is equipped with applications like PRIME, NETFLIX, and DISNEY for your enjoyment.",
+          "info3": "- We provide a PRIME account for guests. Note that you cannot rent or purchase movies through this account, but you have access to a wide range of free content.",
+          "info4": "- Additionally, the FIRE TV allows you to watch live television, expanding your entertainment options."
+        },
+        {
+          "subtitulo": "Remote Controls",
+          "info": "- Use the television remote to control the volume, change the input to HDMI3, and turn the TV on or off.",
+          "info2": "- To navigate through installed applications on the FIRE TV, such as PRIME, NETFLIX, and DISNEY, or to watch live TV, use the FIRE TV remote."
+        },
+        {
+          "subtitulo": "Internet Speed",
+          "info": "- The WiFi speed at Can Blanch Retreat is 80Mbps download and 10Mbps upload, ensuring a smooth experience whether you're browsing the internet, working, or enjoying your favorite multimedia content."
+        }
+      ]
+    },
+
     "descripcion": {
       "titulo": "Description of the Refuge",
       "subtitulo": "Our rural retreat, Can Blanch, is a space where eclectic style merges with comfort to create a homely and welcoming atmosphere. The living-dining room opens up to a charming kitchen, forming the heart of the house. Chairs of different colors add a touch of joy and uniqueness, while the kitchen, with its lovely green hue, inspires tranquility and harmony with nature.<br/><br/>For your comfort, the living room is equipped with a sofa bed capable of accommodating two people, perfect for those moments of relaxation in front of the television, which you can easily connect to from your mobile device. WiFi connection is available to meet all your digital needs. The kitchen comes fully equipped with a fridge, microwave, kettle, toaster, dishes, cutlery, and glasses, ensuring you have everything you need at hand.<br/><br/>The washing machine and dryer are located in a laundry room accessible from the outside, making household chores easier without interfering with the peace of the indoor space.<br/><br/>The house features two bedrooms that perfectly suit your needs. A smaller bedroom offers bunk beds and a wardrobe, ideal for children or friends. The master bedroom is spacious, with a double bed and enough space to place an inflatable mattress, offering the possibility of sharing the space with children if desired.<br/><br/>The house has a bathroom equipped with a shower and a spacious sink, and an additional toilet with a toilet and sink, designed to provide comfort and functionality to all guests.<br/><br/>Can Blanch has been designed and prepared with much love and care, considering every detail to ensure that your stay is as comfortable, relaxing, and memorable as possible. This is a place where you can feel the essence of a home, a space to live stories and create memories that will endure."
@@ -470,7 +500,7 @@
       "data": [
         {
           "nombre": "Restaurant Can Oliveras",
-          "telefono": "93 865 88 92",
+          "telefono": "938658892",
           "web": "http://www.restaurantcanoliveras.com/",
           "map": "https://maps.app.goo.gl/n62RTDdGdhhrRiPa9"
         },
@@ -482,7 +512,7 @@
         },
         {
           "nombre": "Restaurant Tr3s Tombs",
-          "telefono": "938 66 38 83",
+          "telefono": "938663883",
           "web": "https://www.facebook.com/people/Tres-Tombs/100058708762097/",
           "map": "https://maps.app.goo.gl/sC1PViS7hV5AtZ828"
         }
@@ -513,6 +543,35 @@
         {
           "subtitulo": "Bruit",
           "instruccion": "Une partie du charme de Can Blanch réside dans sa tranquillité. Veuillez maintenir un niveau sonore qui ne perturbe pas la paix du lieu, surtout pendant les heures nocturnes."
+        }
+      ]
+    },
+
+    "wifi": {
+      "titulo": "WiFi et de divertissement",
+      "intro": "Pour profiter du service WiFi et de divertissement au Refuge Can Blanch, suivez ces étapes simples :",
+      "text": "N'oubliez pas, si vous avez des questions ou des problèmes avec le service, n'hésitez pas à nous contacter. Nous espérons que vous apprécierez votre séjour au Refuge Can Blanch !",
+      "data": [
+        {
+          "subtitulo": "Connexion WiFi",
+          "info": "- Recherchez le réseau WiFi nommé CAN_BLANCH sur vos appareils.",
+          "info2": "- Connectez-vous ; pas besoin de chercher un mot de passe, car il n'en nécessite pas pour y accéder."
+        },
+        {
+          "subtitulo": "Télévision et Divertissement",
+          "info": "- Allumez la télévision et sélectionnez l'entrée HDMI3. Vous y trouverez un appareil FIRE TV connecté.",
+          "info2": "- Le FIRE TV est équipé d'applications telles que PRIME, NETFLIX et DISNEY pour votre plaisir.",
+          "info3": "- Nous fournissons un compte PRIME pour les invités. Notez que vous ne pouvez pas louer ou acheter de films via ce compte, mais vous avez accès à une large gamme de contenus gratuits.",
+          "info4": "- De plus, le FIRE TV vous permet de regarder la télévision en direct, élargissant ainsi vos options de divertissement."
+        },
+        {
+          "subtitulo": "Télécommandes",
+          "info": "- Utilisez la télécommande de la télévision pour contrôler le volume, changer l'entrée en HDMI3 et allumer ou éteindre la télévision.",
+          "info2": "- Pour naviguer à travers les applications installées sur le FIRE TV, telles que PRIME, NETFLIX et DISNEY, ou pour regarder la télévision en direct, utilisez la télécommande du FIRE TV."
+        },
+        {
+          "subtitulo": "Vitesse Internet",
+          "info": "- La vitesse du WiFi au Refuge Can Blanch est de 80 Mbps en téléchargement et 10 Mbps en téléversement, assurant une expérience fluide que vous naviguiez sur Internet, travailliez ou appréciiez votre contenu multimédia préféré."
         }
       ]
     },

@@ -13,13 +13,14 @@ const dataLugares = datos.eng.lugaresInteres;
 const dataServicios = datos.eng.servicios;
 const dataRestaurantes = datos.eng.restaurantes;
 const dataInstrucciones = datos.eng.instrucciones;
+const dataWifi = datos.eng.wifi;
 ---
 
 <LayoutPrivada>
   <a class="text-2xl p-2" href="/canblanch_privada">⬅️</a>
   <main class="flex flex-col w-full justify-center items-center">
     <BienvenidaPrivada {bienvenidaPrivada} />
-    <Conectate />
+    <Conectate {dataWifi} />
     <Servicios {dataServicios} />
     <Instrucciones {dataInstrucciones} />
     <Restaurantes {dataRestaurantes} />
