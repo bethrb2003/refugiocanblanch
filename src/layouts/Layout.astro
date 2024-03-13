@@ -5,6 +5,7 @@ interface Props {
 
 const { title } = Astro.props;
 
+import Footer from "@/components/Footer.astro";
 import "@fontsource/montserrat";
 import "@fontsource/kalam";
 import '@fontsource-variable/playfair-display';
@@ -30,6 +31,7 @@ import '@fontsource-variable/playfair-display';
       <a class="bg-gray-700 px-1 rounded-sm" href="/canblanch_privada">Privada</a>
     </div>
     <slot />
+    <Footer />
   </body>
 </html>
 <style is:global>
@@ -49,6 +51,8 @@ import '@fontsource-variable/playfair-display';
     background-color: #F6F9F1;
   }
 </style>
+
+<!-- hacer footer  -->
 
 <!-- #f0d1c0 -->
 <!-- #adc988 -->

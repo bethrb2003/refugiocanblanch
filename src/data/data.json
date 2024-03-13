@@ -89,24 +89,24 @@
       "titulo": "Servicios",
       "data": [
         {
-          "nombre": "Farmacia Central",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+          "nombre": "Farmacia Mireia Feu Español",
+          "telefono": "938 66 30 64",
+          "map": "https://maps.app.goo.gl/xTTJECFFkQBfeSHE7"
+        },
+        {
+          "nombre": "Farmacia González García",
+          "telefono": "938 66 00 97",
+          "map": "https://maps.app.goo.gl/SkD5qP317bTVCyR99"
         },
         {
           "nombre": "Hospital General",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+          "telefono": "935 63 61 00",
+          "map": "https://maps.app.goo.gl/pBez3EpYcsrSHZc69"
         },
         {
           "nombre": "Policia Local",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
-        },
-        {
-          "nombre": "Bomberos",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+          "telefono": "938 66 28 89",
+          "map": "https://maps.app.goo.gl/RA2jKZacS3dgjUBK8"
         }
       ]
     },
@@ -114,45 +114,79 @@
       "titulo": "Restaurantes",
       "data": [
         {
-          "nombre": "Restaurante 1",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+          "nombre": "Restaurante Can Oliveras",
+          "telefono": "93 865 88 92",
+          "web": "http://www.restaurantcanoliveras.com/",
+          "map": "https://maps.app.goo.gl/n62RTDdGdhhrRiPa9"
         },
         {
-          "nombre": "Restaurante 2",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+          "nombre": "Restaurante Font de la Pineda",
+          "telefono": "938659006",
+          "web": "http://www.fontdelapineda.com/",
+          "map": "https://maps.app.goo.gl/ZjLXFB1gG8i9txu17"
         },
         {
-          "nombre": "Restaurante 3",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
-        },
-        {
-          "nombre": "Restaurante 4",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+          "nombre": "Restaurante Tr3s Tombs",
+          "telefono": "938 66 38 83",
+          "web": "https://www.facebook.com/people/Tres-Tombs/100058708762097/",
+          "map": "https://maps.app.goo.gl/sC1PViS7hV5AtZ828"
         }
       ]
     },
+
     "instrucciones": {
-      "titulo": "Instrucciones",
+      "titulo": "Normas de Casa: Cómo Disfrutar Responsablemente de tu Estancia en Can Blanch",
+      "intro": "En Can Blanch, queremos que tu estancia sea tan acogedora y especial como sea posible, al mismo tiempo que cuidamos de este maravilloso entorno que nos rodea. Por ello, te pedimos que nos ayudes a preservar la magia de este lugar siguiendo unas sencillas normas, dictadas desde el cariño y el respeto por la naturaleza y nuestro refugio.",
+      "text": "Estas normas no solo buscan garantizar tu bienestar y el de los demás huéspedes, sino también proteger el entorno que hace de Can Blanch un lugar tan especial. Agradecemos de corazón tu colaboración y estamos aquí para cualquier duda o necesidad que tengas. <br/><br/>Disfruta de cada momento en Can Blanch, tu hogar lejos de casa.",
       "data": [
         {
-          "subtitulo": "Luces",
-          "instruccion": " No olvides apagar las luces al salir de la habitación"
+          "subtitulo": "Cuida la luz",
+          "instruccion": "Te invitamos a apagar las luces cuando no sean necesarias. Además de ser un gesto amable con el medio ambiente, permite disfrutar de la belleza natural que nos ofrece la luz del día y las estrellas por la noche."
         },
         {
-          "subtitulo": "Basura",
-          "instruccion": "Recuerda separar la basura en los contenedores correspondientes"
+          "subtitulo": "Uso consciente del agua",
+          "instruccion": "Nos encontramos en un período de sequía, por lo que te agradecemos hacer un uso responsable del agua. Pequeños gestos, como no dejar el agua corriendo innecesariamente, pueden marcar una gran diferencia."
         },
         {
-          "subtitulo": "Agua",
-          "instruccion": "Ayúdanos a cuidar el agua, no la malgastes"
+          "subtitulo": "Fuego",
+          "instruccion": "La seguridad es primordial para nosotros. Por favor, no enciendas fuego en el jardín sin permiso previo. Estaremos encantados de informarte sobre cómo y cuándo es seguro hacerlo, siempre cumpliendo con las normativas locales."
+        },
+        {
+          "subtitulo": "Respeto por la naturaleza",
+          "instruccion": "RTe animamos a disfrutar de los maravillosos alrededores de Can Blanch con responsabilidad. Esto incluye no dejar basura en el entorno natural y respetar la flora y fauna local."
         },
         {
           "subtitulo": "Ruido",
-          "instruccion": "Respeta el descanso de los demás huéspedes, evita hacer ruido después de las 22:00"
+          "instruccion": "Parte del encanto de Can Blanch es su tranquilidad. Por favor, mantén un nivel de ruido que no perturbe la paz del lugar, especialmente durante las horas nocturnas."
+        }
+      ]
+    },
+
+    "wifi": {
+      "titulo": "",
+      "intro": "",
+      "text": "",
+      "data": [
+        {
+          "subtitulo": "",
+          "info": "-",
+          "info2": "-"
+        },
+        {
+          "subtitulo": "",
+          "info": "-",
+          "info2": "-",
+          "info3": "-",
+          "info4": "-"
+        },
+        {
+          "subtitulo": "",
+          "info": "-",
+          "info2": "-"
+        },
+        {
+          "subtitulo": "",
+          "info": "-"
         }
       ]
     }
@@ -168,7 +202,8 @@
       "texto": "As you enter Can Blanch, you will discover a unique corner where the serenity of nature embraces every moment. This refuge, hidden among trees and accompanied by the song of birds, invites you to leave behind stress and immerse yourself in absolute tranquility.<br/> <br/>Here, hiking trails will guide you through breathtaking landscapes and bring you closer to spectacular sites, all bathed in the tranquility of an unparalleled environment. At dusk, prepare to witness an unparalleled starry sky, thanks to the total absence of light pollution.<br/><br/> Can Blanch is more than a place to stay; it is a refuge where every detail seeks to offer you peace and a deep connection with nature. Quiet nights and silence are the perfect backdrop for an unforgettable stay.<br/> We welcome you to your perfect getaway, where each day is an invitation to relaxation and discovery. Welcome to Can Blanch."
     },
     "quienesSomos": {
-      "titulo": "The Story of Can Blanch: Discover Our Origins",
+      "subtitulo": "The Story of Can Blanch",
+      "titulo": "Discover Our Origins",
       "texto": "In 1980, Albert Blanch and Anna Nieto began a project full of hope: the construction of Can Blanch. What started as a set of walls and dreams gradually transformed into a vibrant home, brimming with life, love, and warmth. Over the years, each remodeling and improvement reflected not only their vision but also their commitment to creating a cozy and familiar space.<br/><br/>Can Blanch has been the backdrop for countless happy moments, from holidays and weekends to barbecues and birthday celebrations. Those moments of union and happiness have permeated every room, making the house a special place where every corner tells a story.<br/><br/>Our wish is to share that essence of familiarity and warmth with those who visit us. We want Can Blanch to be more than a place of passage; we aspire for it to be a space where our guests can feel at home, creating their own unforgettable moments.<br/><br/>Can Blanch is not just a house; it is a family refuge where every stay invites you to feel part of its rich history of love and unity."
     },
 
@@ -244,24 +279,24 @@
       "titulo": "Services",
       "data": [
         {
-          "nombre": "Central Pharmacy",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+          "nombre": "Pharmacy Mireia Feu Español",
+          "telefono": "938 66 30 64",
+          "map": "https://maps.app.goo.gl/xTTJECFFkQBfeSHE7"
         },
         {
-          "nombre": "General Hospital",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+          "nombre": "Pharmacy González García",
+          "telefono": "938 66 00 97",
+          "map": "https://maps.app.goo.gl/SkD5qP317bTVCyR99"
+        },
+        {
+          "nombre": "General hospital",
+          "telefono": "935 63 61 00",
+          "map": "https://maps.app.goo.gl/pBez3EpYcsrSHZc69"
         },
         {
           "nombre": "Local Police",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
-        },
-        {
-          "nombre": "Firefighters",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+          "telefono": "938 66 28 89",
+          "map": "https://maps.app.goo.gl/RA2jKZacS3dgjUBK8"
         }
       ]
     },
@@ -269,58 +304,56 @@
       "titulo": "Restaurants",
       "data": [
         {
-          "nombre": "Restaurant 1",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+          "nombre": "Restaurant Can Oliveras",
+          "telefono": "93 865 88 92",
+          "web": "http://www.restaurantcanoliveras.com/",
+          "map": "https://maps.app.goo.gl/n62RTDdGdhhrRiPa9"
         },
         {
-          "nombre": "Restaurant 2",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+          "nombre": "Restaurant Font de la Pineda",
+          "telefono": "938659006",
+          "web": "http://www.fontdelapineda.com/",
+          "map": "https://maps.app.goo.gl/ZjLXFB1gG8i9txu17"
         },
         {
-          "nombre": "Restaurant 3",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
-        },
-        {
-          "nombre": "Restaurant 4",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+          "nombre": "Restaurant Tr3s Tombs",
+          "telefono": "938 66 38 83",
+          "web": "https://www.facebook.com/people/Tres-Tombs/100058708762097/",
+          "map": "https://maps.app.goo.gl/sC1PViS7hV5AtZ828"
         }
       ]
     },
+
     "instrucciones": {
-      "titulo": "Instructions",
+      "titulo": "House Rules: How to Enjoy Your Stay Responsibly at Can Blanch",
+      "intro": "At Can Blanch, we want your stay to be as cozy and special as possible, while also taking care of this wonderful environment that surrounds us. Therefore, we ask for your help in preserving the magic of this place by following some simple rules, dictated from love and respect for nature and our refuge.",
+      "text": "These rules not only aim to ensure your well-being and that of other guests but also to protect the environment that makes Can Blanch such a special place. We sincerely appreciate your cooperation and are here for any questions or needs you may have. <br/><br/>Enjoy every moment at Can Blanch, your home away from home.",
       "data": [
         {
-          "subtitulo": "Lights",
-          "instruccion": "Don't forget to turn off the lights when leaving the room"
+          "subtitulo": "Take Care of the Lights",
+          "instruccion": "We invite you to turn off the lights when they are not necessary. Besides being a kind gesture to the environment, it allows you to enjoy the natural beauty offered by daylight and the stars at night."
         },
         {
-          "subtitulo": "Garbage",
-          "instruccion": "Remember to separate the garbage in the corresponding containers"
+          "subtitulo": "Conscious Water Usage",
+          "instruccion": "We are in a period of drought, so we appreciate your responsible use of water. Small actions, such as not letting the water run unnecessarily, can make a big difference."
         },
         {
-          "subtitulo": "Water",
-          "instruccion": "Help us conserve water, don't waste it"
+          "subtitulo": "Fire",
+          "instruccion": "Safety is paramount for us. Please do not light a fire in the garden without prior permission. We will be happy to inform you about how and when it is safe to do so, always complying with local regulations."
+        },
+        {
+          "subtitulo": "Respect for Nature",
+          "instruccion": "We encourage you to enjoy the wonderful surroundings of Can Blanch responsibly. This includes not leaving garbage in the natural environment and respecting the local flora and fauna."
         },
         {
           "subtitulo": "Noise",
-          "instruccion": "Respect the rest of the other guests, avoid making noise after 10:00 PM"
+          "instruccion": "Part of the charm of Can Blanch is its tranquility. Please maintain a noise level that does not disturb the peace of the place, especially during nighttime hours."
         }
       ]
     },
     "descripcion": {
       "titulo": "Description of the Refuge",
-      "subtitulo": "Can Blanch Refuge is an ideal place to disconnect and enjoy nature. Located in a privileged environment, surrounded by forests and mountains, it is the perfect place for lovers of nature and tranquility. Our refuge has wooden cabins, outdoor kitchen, hiking trails, and panoramic views. Additionally, it is equipped with all the necessary services to ensure a comfortable and safe stay.",
-      "lista": [
-        "- Large dining room",
-        "- Fireplace",
-        "- Equipped kitchen",
-        "- 2 Bedrooms",
-        "- Sofa bed"
-      ]
+      "subtitulo": "Our rural retreat, Can Blanch, is a space where eclectic style merges with comfort to create a homely and welcoming atmosphere. The living-dining room opens up to a charming kitchen, forming the heart of the house. Chairs of different colors add a touch of joy and uniqueness, while the kitchen, with its lovely green hue, inspires tranquility and harmony with nature.<br/><br/>For your comfort, the living room is equipped with a sofa bed capable of accommodating two people, perfect for those moments of relaxation in front of the television, which you can easily connect to from your mobile device. WiFi connection is available to meet all your digital needs. The kitchen comes fully equipped with a fridge, microwave, kettle, toaster, dishes, cutlery, and glasses, ensuring you have everything you need at hand.<br/><br/>The washing machine and dryer are located in a laundry room accessible from the outside, making household chores easier without interfering with the peace of the indoor space.<br/><br/>The house features two bedrooms that perfectly suit your needs. A smaller bedroom offers bunk beds and a wardrobe, ideal for children or friends. The master bedroom is spacious, with a double bed and enough space to place an inflatable mattress, offering the possibility of sharing the space with children if desired.<br/><br/>The house has a bathroom equipped with a shower and a spacious sink, and an additional toilet with a toilet and sink, designed to provide comfort and functionality to all guests.<br/><br/>Can Blanch has been designed and prepared with much love and care, considering every detail to ensure that your stay is as comfortable, relaxing, and memorable as possible. This is a place where you can feel the essence of a home, a space to live stories and create memories that will endure."
     }
   },
   "fra": {
@@ -334,7 +367,8 @@
       "texto": "En entrant à Can Blanch, vous découvrirez un coin unique où la sérénité de la nature embrasse chaque instant. Ce refuge, caché parmi les arbres et accompagné par le chant des oiseaux, vous invite à laisser derrière vous le stress et à vous immerger dans une tranquillité absolue.<br/> <br/>Ici, les sentiers de randonnée vous guideront à travers des paysages à couper le souffle et vous rapprocheront de sites spectaculaires, le tout baigné dans la tranquillité d'un environnement sans pareil. Au crépuscule, préparez-vous à être témoin d'un ciel étoilé incomparable, grâce à l'absence totale de pollution lumineuse.<br/><br/> Can Blanch est plus qu'un lieu de séjour; c'est un refuge où chaque détail cherche à vous offrir paix et une connexion profonde avec la nature. Les nuits calmes et le silence sont la toile de fond parfaite pour un séjour inoubliable.<br/> Nous vous souhaitons la bienvenue dans votre escapade parfaite, où chaque jour est une invitation à la relaxation et à la découverte. Bienvenue à Can Blanch."
     },
     "quienesSomos": {
-      "titulo": "L'Histoire de Can Blanch : Découvrez Nos Origines",
+      "subtitulo": "L'Histoire de Can Blanch",
+      "titulo": "Découvrez Nos Origines",
       "texto": "En 1980, Albert Blanch et Anna Nieto ont commencé un projet plein d'espoir : la construction de Can Blanch. Ce qui a commencé comme un ensemble de murs et de rêves s'est progressivement transformé en un foyer vibrant, débordant de vie, d'amour et de chaleur. Au fil des années, chaque rénovation et amélioration a reflété non seulement leur vision mais aussi leur engagement à créer un espace accueillant et familier.<br/><br/>Can Blanch a été le cadre d'innombrables moments heureux, des vacances et week-ends aux barbecues et célébrations d'anniversaires. Ces moments d'union et de bonheur ont imprégné chaque pièce, faisant de la maison un lieu spécial où chaque coin raconte une histoire.<br/><br/>Notre souhait est de partager cette essence de familiarité et de chaleur avec ceux qui nous rendent visite. Nous voulons que Can Blanch soit plus qu'un lieu de passage ; nous aspirons à ce qu'il soit un espace où nos hôtes peuvent se sentir chez eux, créant leurs propres moments inoubliables.<br/><br/>Can Blanch n'est pas juste une maison ; c'est un refuge familial où chaque séjour vous invite à vous sentir partie intégrante de sa riche histoire d'amour et d'unité."
     },
 
@@ -410,24 +444,24 @@
       "titulo": "Services",
       "data": [
         {
-          "nombre": "Pharmacie Centrale",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+          "nombre": "Pharmacie Mireia Feu Español",
+          "telefono": "938 66 30 64",
+          "map": "https://maps.app.goo.gl/xTTJECFFkQBfeSHE7"
         },
         {
-          "nombre": "Hôpital Général",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+          "nombre": "Pharmacie González García",
+          "telefono": "938 66 00 97",
+          "map": "https://maps.app.goo.gl/SkD5qP317bTVCyR99"
+        },
+        {
+          "nombre": "Hôpital général",
+          "telefono": "935 63 61 00",
+          "map": "https://maps.app.goo.gl/pBez3EpYcsrSHZc69"
         },
         {
           "nombre": "Police Locale",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
-        },
-        {
-          "nombre": "Pompiers",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+          "telefono": "938 66 28 89",
+          "map": "https://maps.app.goo.gl/RA2jKZacS3dgjUBK8"
         }
       ]
     },
@@ -435,58 +469,57 @@
       "titulo": "Restaurants",
       "data": [
         {
-          "nombre": "Restaurant 1",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+          "nombre": "Restaurant Can Oliveras",
+          "telefono": "93 865 88 92",
+          "web": "http://www.restaurantcanoliveras.com/",
+          "map": "https://maps.app.goo.gl/n62RTDdGdhhrRiPa9"
         },
         {
-          "nombre": "Restaurant 2",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+          "nombre": "Restaurant Font de la Pineda",
+          "telefono": "938659006",
+          "web": "http://www.fontdelapineda.com/",
+          "map": "https://maps.app.goo.gl/ZjLXFB1gG8i9txu17"
         },
         {
-          "nombre": "Restaurant 3",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
-        },
-        {
-          "nombre": "Restaurant 4",
-          "telefono": "656656656",
-          "map": "https://maps.google.com/?q=Calle+Falsa+123,+Barcelona"
+          "nombre": "Restaurant Tr3s Tombs",
+          "telefono": "938 66 38 83",
+          "web": "https://www.facebook.com/people/Tres-Tombs/100058708762097/",
+          "map": "https://maps.app.goo.gl/sC1PViS7hV5AtZ828"
         }
       ]
     },
+
     "instrucciones": {
-      "titulo": "Instructions",
+      "titulo": "Règles de la Maison: Comment Profiter Responsablement de Votre Séjour à Can Blanch",
+      "intro": "À Can Blanch, nous voulons que votre séjour soit aussi confortable et spécial que possible, tout en prenant soin de cet environnement merveilleux qui nous entoure. C'est pourquoi nous vous demandons de nous aider à préserver la magie de cet endroit en suivant quelques règles simples, dictées par l'amour et le respect de la nature et de notre refuge.",
+      "text": "Ces règles visent non seulement à garantir votre bien-être et celui des autres clients, mais aussi à protéger l'environnement qui rend Can Blanch si spécial. Nous apprécions sincèrement votre coopération et sommes là pour répondre à toutes vos questions ou besoins. <br/><br/>Profitez de chaque moment à Can Blanch, votre chez-vous loin de chez vous.",
       "data": [
         {
-          "subtitulo": "Lumières",
-          "instruccion": "N'oubliez pas d'éteindre les lumières en sortant de la chambre"
+          "subtitulo": "Prenez Soin des Lumières",
+          "instruccion": "Nous vous invitons à éteindre les lumières lorsqu'elles ne sont pas nécessaires. En plus d'être un geste gentil envers l'environnement, cela vous permet de profiter de la beauté naturelle offerte par la lumière du jour et les étoiles la nuit."
         },
         {
-          "subtitulo": "Déchets",
-          "instruccion": "Rappelez-vous de séparer les déchets dans les conteneurs appropriés"
+          "subtitulo": "Utilisation Consciente de l'Eau",
+          "instruccion": "Nous traversons une période de sécheresse, donc nous vous remercions d'utiliser l'eau de manière responsable. De petits gestes, tels que ne pas laisser l'eau couler inutilement, peuvent faire une grande différence."
         },
         {
-          "subtitulo": "Eau",
-          "instruccion": "Aidez-nous à préserver l'eau, ne la gaspillez pas"
+          "subtitulo": "Feu",
+          "instruccion": "La sécurité est primordiale pour nous. S'il vous plaît, ne mettez pas le feu dans le jardin sans permission préalable. Nous serons heureux de vous informer sur la manière et le moment où cela est sûr de le faire, tout en respectant toujours les réglementations locales."
+        },
+        {
+          "subtitulo": "Respect de la Nature",
+          "instruccion": "Nous vous encourageons à profiter des merveilleux environs de Can Blanch de manière responsable. Cela inclut ne pas laisser de déchets dans l'environnement naturel et respecter la flore et la faune locales."
         },
         {
           "subtitulo": "Bruit",
-          "instruccion": "Respectez le repos des autres hôtes, évitez de faire du bruit après 22h00"
+          "instruccion": "Une partie du charme de Can Blanch réside dans sa tranquillité. Veuillez maintenir un niveau sonore qui ne perturbe pas la paix du lieu, surtout pendant les heures nocturnes."
         }
       ]
     },
+
     "descripcion": {
       "titulo": "Description du refuge",
-      "subtitulo": "Le Refuge Can Blanch est un lieu idéal pour se déconnecter et profiter de la nature. Situé dans un environnement privilégié, entouré de forêts et de montagnes, c'est l'endroit parfait pour les amoureux de la nature et de la tranquillité. Notre refuge dispose de cabanes en bois, d'une cuisine en plein air, de sentiers de randonnée et de vues panoramiques. De plus, il est équipé de tous les services nécessaires pour garantir un séjour confortable et sûr.",
-      "lista": [
-        "- Grande salle à manger",
-        "- Cheminée",
-        "- Cuisine équipée",
-        "- 2 Chambres",
-        "- Canapé-lit"
-      ]
+      "subtitulo": "Notre refuge, Can Blanch, est un espace où le style éclectique se marie avec le confort pour créer une atmosphère chaleureuse et accueillante. Le salon-salle à manger s'ouvre sur une cuisine charmante, formant le cœur de la maison. Des chaises de différentes couleurs ajoutent une touche de joie et d'unicité, tandis que la cuisine, avec sa belle teinte verte, inspire tranquillité et harmonie avec la nature.<br/><br/>Pour votre confort, le salon est équipé d'un canapé-lit pouvant accueillir deux personnes, parfait pour ces moments de détente devant la télévision, que vous pouvez facilement connecter depuis votre téléphone portable. La connexion WiFi est disponible pour répondre à tous vos besoins numériques. La cuisine est entièrement équipée avec un réfrigérateur, un micro-ondes, une bouilloire, un grille-pain, des assiettes, des couverts et des verres, vous assurant d'avoir tout ce dont vous avez besoin à portée de main.<br/><br/>La machine à laver et le sèche-linge se trouvent dans une buanderie accessible depuis l'extérieur, facilitant les tâches ménagères sans perturber la tranquillité de l'espace intérieur.<br/><br/>La maison dispose de deux chambres qui répondent parfaitement à vos besoins. Une chambre plus petite propose des lits superposés et une armoire, idéale pour les enfants ou les amis. La chambre principale est spacieuse, avec un lit double et assez d'espace pour placer un matelas gonflable, offrant la possibilité de partager l'espace avec les enfants si vous le souhaitez.<br/><br/>La maison dispose d'une salle de bains équipée d'une douche et d'un lavabo spacieux, ainsi que d'un WC supplémentaire avec toilettes et lavabo, conçu pour offrir confort et fonctionnalité à tous les invités.<br/><br/>Can Blanch a été conçu et préparé avec beaucoup d'amour et de soin, en tenant compte de chaque détail pour garantir que votre séjour soit aussi confortable, relaxant et mémorable que possible. C'est un endroit où vous pouvez sentir l'essence d'un foyer, un espace pour vivre des histoires et créer des souvenirs qui perdureront."
     }
   }
 }

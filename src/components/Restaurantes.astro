@@ -3,15 +3,20 @@ const { dataRestaurantes } = Astro.props;
 const { titulo, data } = dataRestaurantes;
 ---
 
-<section class="flex flex-col justify-center items-center mt-4">
-  <h2 class="text-2xl font-semibold">{titulo}</h2>
+<section class="container">
+  <h2 class="title">{titulo}</h2>
   <table>
     {
       data.map((lugar) => (
         <tr class="">
-          <td class="border border-slate-700 px-1">{lugar.nombre}</td>
-          <td class="border border-slate-700 px-1">{lugar.telefono}</td>
-          <td class="border border-slate-700 px-1">
+          <td >{lugar.nombre}</td>
+          <td >{lugar.telefono}</td>
+          <td>
+            <a href={lugar.web} target="_blank">
+              🌐
+            </a>
+          </td>
+          <td>
             <a href={lugar.map} target="_blank">
               🗺️
             </a>
@@ -21,3 +26,30 @@ const { titulo, data } = dataRestaurantes;
     }
   </table>
 </div>
+
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  td {
+    border: 1px solid var(--negro); 
+    padding: 5px;
+  }
+
+  a {
+    font-size: 17px;
+  }
+</style>
