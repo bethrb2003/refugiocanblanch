@@ -8,7 +8,7 @@ const { title } = Astro.props;
 import Footer from "@/components/Footer.astro";
 import "@fontsource/montserrat";
 import "@fontsource/kalam";
-import '@fontsource-variable/playfair-display';
+import "@fontsource-variable/playfair-display";
 ---
 
 <!doctype html>
@@ -26,10 +26,12 @@ import '@fontsource-variable/playfair-display';
     <title>{title}</title>
   </head>
   <body>
-    <div class="absolute z-50 flex gap-4 p-1 text-blanco">
+    <!-- <div class="absolute z-50 flex gap-4 p-1 text-blanco">
       <a class="bg-gray-700 px-1 rounded-sm" href="/">Publica</a>
-      <a class="bg-gray-700 px-1 rounded-sm" href="/canblanch_privada">Privada</a>
-    </div>
+      <a class="bg-gray-700 px-1 rounded-sm" href="/canblanch_privada"
+        >Privada</a
+      >
+    </div> -->
     <slot />
     <Footer />
   </body>
@@ -44,11 +46,11 @@ import '@fontsource-variable/playfair-display';
 
   html,
   body {
-    font-family: 'Playfair Display Variable', serif;
+    font-family: "Playfair Display Variable", serif;
     position: relative;
     height: 100%;
     color: var(--negro);
-    background-color: #F6F9F1;
+    background-color: #f6f9f1;
   }
 </style>
 
